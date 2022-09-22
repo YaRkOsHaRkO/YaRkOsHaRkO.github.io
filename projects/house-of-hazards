@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script type="text/javascript">
+			window.config = {
+			debug: false,
+			maxRatio: 16 / 9,
+			minRatio: 9 / 16,
+			numScreenshots: 0,
+			unityWebglBuildUrl: 'Build/HouseOfHazardsPoki.json',
+			unityWebglLoaderUrl: 'UnityLoader.js'
+		};
+		</script>
+<meta charset="utf-8">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>House Of Hazards - House Of Hazards poki - TBG95</title>
+<script type="text/javascript" src="//tbg95.github.io/cloak.js"></script>
+<meta name="description" content="House of Hazards is a funny skill game created by NewEichGames. Play House Of Hazards Unblocked on TBG95">
+<link rel="stylesheet" type="text/css" href="style.css" />
+<script type="text/javascript" src="api.js"></script>
+</head>
+<body>
+	<div class="main-nav" id="post">
+		<h1>House Of Hazards Unblocked</h1>
+		<p>House of Hazards is a funny skill game created by NewEichGames. In House of Hazards, you race to complete various tasks inside a flat where your opponents watch your steps in real-time and set up traps to defeat you. Avoid obstacles like falling lamps and swinging cabinets to complete all of your objectives and win the round. Similarly, keep your opponents from completing their tasks by activating your own traps at the right time. Pay attention to the wheel of fortune at the end of every round to learn the rules of the next round. Are you ready for a dangerously good time? House of Hazards is so addictive it should come with a warning!</p>
+		<h2>How to play House Of Hazards</h2>
+		<p>
+			Player 1<br>
+			<ul>
+				<li>Move left - A</li>
+				<li>Move right - D</li>
+				<li>Jump - W</li>
+				<li>Crouch/Fire - S</li>
+			</ul>
+			<br>
+			<br>
+			Player 2<br>
+			<ul>
+				<li>Move left - J</li>
+				<li>Move right - L</li>
+				<li>Jump - K</li>
+				<li>Crouch/Fire - I</li>
+			</ul>
+
+		</p>
+		<h2>Who created House Of Hazards</h2>
+		<p>House of Hazards was created by NewEichGames, a game development company based in the United States</p>
+		<p>If you like House of Hazards Unblocked and  <a href="https://tbg95.github.io" title="TBG95 Unblocked Games">TBG95 Games</a>. You can play another unblocked games on TBG95. This is list similar games: <br>
+			<ul>
+			<li><a href="https://tbg95.github.io/gswitch/" title="G-Switch 3">G-Switch 3</a></li>
+			<li><a href="https://tbg95.github.io/getaway-shootout/" title="Getaway Shootout">Getaway Shootout</a></li>
+			<li><a href="https://tbg95.github.io/idle-mining-empire/" title="Idle Mining Empire">Idle Mining Empire</a></li>
+			<li><a href="https://tbg95.github.io/tiny-fishing/" title="Tiny Fishing">Tiny Fishing</a></li>
+			</ul>
+      	</p>
+	</div>
+<div id="loader">
+<div id="slideshow">
+<div id="slideshow-top">
+<img alt="Running Fred" title="Running Fred" src="thumbnail.jpg" id="thumbnail" />
+<div id="slideshow-top-container">
+<div id="game-title">
+<h4>House Of Hazards</h4>
+</div>
+<div id="progress-container">
+<div id="progress-bar">
+<div id="progress-fill" style="width:0%"></div>
+</div>
+<div id="progress-amount">0%</div>
+</div>
+</div>
+</div>
+<div id="slideshow-images"></div>
+<div id="slideshow-nav"></div>
+</div>
+</div>
+<div id="game-container">
+<div id="game"></div>
+</div>
+<script type="text/javascript" src="loader.js"></script>
+</body>
+</html>
