@@ -2,7 +2,7 @@
 "companyName": "New Eich Games",
 "productName": "House of Hazards",
 "productVersion": "0.1",
-"dataUrl": "https://github.com/YaRkOsHaRkO/3kh0.github.io/raw/main/projects/house-of-hazards/Build/HouseOfHazardsTwoPlayerGames.data.unityweb",
+"dataUrl": "https://www.dropbox.com/s/aqooc4togyqb4pg/HouseOfHazardsTwoPlayerGames.wasm.data.unityweb?dl=1",
 "wasmCodeUrl": "https://www.dropbox.com/s/aqooc4togyqb4pg/HouseOfHazardsTwoPlayerGames.wasm.code.unityweb?dl=1",
 "wasmFrameworkUrl": "https://www.dropbox.com/s/2fgdc2ivzw2tdhl/HouseOfHazardsTwoPlayerGames.wasm.framework.unityweb?dl=1",
 "graphicsAPI": ["WebGL 2.0","WebGL 1.0"],
