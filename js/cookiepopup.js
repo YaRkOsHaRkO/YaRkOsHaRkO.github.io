@@ -1,7 +1,7 @@
 // --- Config --- //
 var cookiePopupTitle = "Message to FCPS Students";
 var cookiePopupDesc = "This site is maintained by someone like you!";
-var cookiePopupLink = 'To Reccomend a Game: <a href="https://bruh.com/" target="_blank">click here!</a>';
+var cookiePopupLink = 'To Reccomend a Game: <a href="https://github.com/YaRkOsHaRkO/arjunisbozo/issues/new?assignees=&labels=%E2%9C%A8+Enhancement&template=feature_request.yml&title=Feature+Request" target="_blank">click here!</a>';
 var cookiePopupButton = "Ok!";
 
 function pureFadeIn(elem, display) {
@@ -29,3 +29,51 @@ function pureFadeOut(elem) {
     }
   })();
 }
+
+function setCookie(name, value, days) {
+  var expires = "";
+  if (days) {
+    var date = new Date();
+    date.setTime(date.getTime() + days * 24 * 60 * 60 * 1000);
+    expires = "; expires=" + date.toUTCString();
+  }
+  document.cookie = name + "=" + (value || "") + expires + "; path=/";
+}
+function getCookie(name) {
+  var nameEQ = name + "=";
+  var ca = document.cookie.split(";");
+  for (var i = 0; i < ca.length; i++) {
+    var c = ca[i];
+    while (c.charAt(0) == " ") c = c.substring(1, c.length);
+    if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length, c.length);
+  }
+  return null;
+}
+function eraseCookie(name) {
+  document.cookie = name + "=; Max-Age=-99999999;";
+}
+
+function cookiePopupBox() {
+  if (!getCookie("cookiePopupDismiss")) {
+    document.body.innerHTML +=
+      '<div class="cookiePopupBoxContainer" id="cookiePopupBoxContainer"><div class="cookieTitle"><a>' +
+      cookiePopupTitle +
+      '</a></div><div class="cookieDesc"><p>' +
+      cookiePopupDesc +
+      " " +
+      cookiePopupLink +
+      '</p></div><div class="cookieButton"><a onClick="cookiePopupDismiss();">' +
+      cookiePopupButton +
+      "</a></div></div>";
+    pureFadeIn("cookiePopupBoxContainer");
+  }
+}
+
+function cookiePopupDismiss() {
+  setCookie("cookiePopupDismiss", "1", 7);
+  pureFadeOut("cookiePopupBoxContainer");
+}
+
+window.onload = function () {
+  cookiePopupBox();
+};
