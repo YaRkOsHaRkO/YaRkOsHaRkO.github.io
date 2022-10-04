@@ -1,7 +1,7 @@
 // --- Config --- //
 var cookiePopupTitle = "Message to FCPS Students";
 var cookiePopupDesc = "This site is maintained by someone like you!";
-var cookiePopupLink = 'To Reccomend a Game: <a href="/dump/cookieinfo.html" target="_blank">click here!</a>';
+var cookiePopupLink = 'To Reccomend a Game: <a href="https://bruh.com/" target="_blank">click here!</a>';
 var cookiePopupButton = "Ok!";
 
 function pureFadeIn(elem, display) {
