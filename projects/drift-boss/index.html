@@ -1,0 +1,2969 @@
+<!DOCTYPE html>
+<!-- saved from url=(0049)https://www.mathplayground.com/pg_drift_boss.html -->
+<html lang="en" class="fontawesome-i2svg-active fontawesome-i2svg-complete"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<script type="text/javascript" async="" src="./index_files/analytics.js.download"></script><script src="./index_files/cb=gapi.loaded_1" async=""></script><script src="./index_files/cb=gapi(1).loaded_0" async=""></script><script async="" src="./index_files/gtm.js.download"></script><script data-gtm="1" type="text/javascript">(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-NNT6PQ9');</script>
+
+
+
+<title>Drift Boss | Math Playground</title>
+<meta name="keywords" content="game, driving, racing, cars, drift, skill, drift, race">
+<meta name="description" content="Play Drift Boss at Math Playground!">
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style type="text/css">svg:not(:root).svg-inline--fa{overflow:visible}.svg-inline--fa{display:inline-block;font-size:inherit;height:1em;overflow:visible;vertical-align:-.125em}.svg-inline--fa.fa-lg{vertical-align:-.225em}.svg-inline--fa.fa-w-1{width:.0625em}.svg-inline--fa.fa-w-2{width:.125em}.svg-inline--fa.fa-w-3{width:.1875em}.svg-inline--fa.fa-w-4{width:.25em}.svg-inline--fa.fa-w-5{width:.3125em}.svg-inline--fa.fa-w-6{width:.375em}.svg-inline--fa.fa-w-7{width:.4375em}.svg-inline--fa.fa-w-8{width:.5em}.svg-inline--fa.fa-w-9{width:.5625em}.svg-inline--fa.fa-w-10{width:.625em}.svg-inline--fa.fa-w-11{width:.6875em}.svg-inline--fa.fa-w-12{width:.75em}.svg-inline--fa.fa-w-13{width:.8125em}.svg-inline--fa.fa-w-14{width:.875em}.svg-inline--fa.fa-w-15{width:.9375em}.svg-inline--fa.fa-w-16{width:1em}.svg-inline--fa.fa-w-17{width:1.0625em}.svg-inline--fa.fa-w-18{width:1.125em}.svg-inline--fa.fa-w-19{width:1.1875em}.svg-inline--fa.fa-w-20{width:1.25em}.svg-inline--fa.fa-pull-left{margin-right:.3em;width:auto}.svg-inline--fa.fa-pull-right{margin-left:.3em;width:auto}.svg-inline--fa.fa-border{height:1.5em}.svg-inline--fa.fa-li{width:2em}.svg-inline--fa.fa-fw{width:1.25em}.fa-layers svg.svg-inline--fa{bottom:0;left:0;margin:auto;position:absolute;right:0;top:0}.fa-layers{display:inline-block;height:1em;position:relative;text-align:center;vertical-align:-.125em;width:1em}.fa-layers svg.svg-inline--fa{-webkit-transform-origin:center center;transform-origin:center center}.fa-layers-counter,.fa-layers-text{display:inline-block;position:absolute;text-align:center}.fa-layers-text{left:50%;top:50%;-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%);-webkit-transform-origin:center center;transform-origin:center center}.fa-layers-counter{background-color:#ff253a;border-radius:1em;-webkit-box-sizing:border-box;box-sizing:border-box;color:#fff;height:1.5em;line-height:1;max-width:5em;min-width:1.5em;overflow:hidden;padding:.25em;right:0;text-overflow:ellipsis;top:0;-webkit-transform:scale(.25);transform:scale(.25);-webkit-transform-origin:top right;transform-origin:top right}.fa-layers-bottom-right{bottom:0;right:0;top:auto;-webkit-transform:scale(.25);transform:scale(.25);-webkit-transform-origin:bottom right;transform-origin:bottom right}.fa-layers-bottom-left{bottom:0;left:0;right:auto;top:auto;-webkit-transform:scale(.25);transform:scale(.25);-webkit-transform-origin:bottom left;transform-origin:bottom left}.fa-layers-top-right{right:0;top:0;-webkit-transform:scale(.25);transform:scale(.25);-webkit-transform-origin:top right;transform-origin:top right}.fa-layers-top-left{left:0;right:auto;top:0;-webkit-transform:scale(.25);transform:scale(.25);-webkit-transform-origin:top left;transform-origin:top left}.fa-lg{font-size:1.33333em;line-height:.75em;vertical-align:-.0667em}.fa-xs{font-size:.75em}.fa-sm{font-size:.875em}.fa-1x{font-size:1em}.fa-2x{font-size:2em}.fa-3x{font-size:3em}.fa-4x{font-size:4em}.fa-5x{font-size:5em}.fa-6x{font-size:6em}.fa-7x{font-size:7em}.fa-8x{font-size:8em}.fa-9x{font-size:9em}.fa-10x{font-size:10em}.fa-fw{text-align:center;width:1.25em}.fa-ul{list-style-type:none;margin-left:2.5em;padding-left:0}.fa-ul>li{position:relative}.fa-li{left:-2em;position:absolute;text-align:center;width:2em;line-height:inherit}.fa-border{border:solid .08em #eee;border-radius:.1em;padding:.2em .25em .15em}.fa-pull-left{float:left}.fa-pull-right{float:right}.fa.fa-pull-left,.fab.fa-pull-left,.fal.fa-pull-left,.far.fa-pull-left,.fas.fa-pull-left{margin-right:.3em}.fa.fa-pull-right,.fab.fa-pull-right,.fal.fa-pull-right,.far.fa-pull-right,.fas.fa-pull-right{margin-left:.3em}.fa-spin{-webkit-animation:fa-spin 2s infinite linear;animation:fa-spin 2s infinite linear}.fa-pulse{-webkit-animation:fa-spin 1s infinite steps(8);animation:fa-spin 1s infinite steps(8)}@-webkit-keyframes fa-spin{0%{-webkit-transform:rotate(0);transform:rotate(0)}100%{-webkit-transform:rotate(360deg);transform:rotate(360deg)}}@keyframes fa-spin{0%{-webkit-transform:rotate(0);transform:rotate(0)}100%{-webkit-transform:rotate(360deg);transform:rotate(360deg)}}.fa-rotate-90{-webkit-transform:rotate(90deg);transform:rotate(90deg)}.fa-rotate-180{-webkit-transform:rotate(180deg);transform:rotate(180deg)}.fa-rotate-270{-webkit-transform:rotate(270deg);transform:rotate(270deg)}.fa-flip-horizontal{-webkit-transform:scale(-1,1);transform:scale(-1,1)}.fa-flip-vertical{-webkit-transform:scale(1,-1);transform:scale(1,-1)}.fa-flip-horizontal.fa-flip-vertical{-webkit-transform:scale(-1,-1);transform:scale(-1,-1)}:root .fa-flip-horizontal,:root .fa-flip-vertical,:root .fa-rotate-180,:root .fa-rotate-270,:root .fa-rotate-90{-webkit-filter:none;filter:none}.fa-stack{display:inline-block;height:2em;position:relative;width:2em}.fa-stack-1x,.fa-stack-2x{bottom:0;left:0;margin:auto;position:absolute;right:0;top:0}.svg-inline--fa.fa-stack-1x{height:1em;width:1em}.svg-inline--fa.fa-stack-2x{height:2em;width:2em}.fa-inverse{color:#fff}.sr-only{border:0;clip:rect(0,0,0,0);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px}.sr-only-focusable:active,.sr-only-focusable:focus{clip:auto;height:auto;margin:0;overflow:visible;position:static;width:auto}</style><link rel="stylesheet" href="./index_files/main.css">
+<style>
+
+	h6 {
+    	font-size: 1.8rem;
+    	line-height: 1.6;
+   	 	letter-spacing: 0;
+		color: royalblue;
+	}
+    </style>
+
+<link rel="icon" type="image/png" href="https://www.mathplayground.com/favicon.ico">
+<script defer="" src="./index_files/all.js.download" type="text/javascript"></script>
+<script data-header="1" src="./index_files/global.js.download" type="text/javascript"></script>
+<style type="text/css">@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed|Roboto:300,400,500,700);</style><style type="text/css">.align-center {
+  text-align: center; }
+
+.align-left {
+  text-align: left; }
+
+.align-right {
+  text-align: right; }
+
+.uppercase {
+  text-transform: uppercase; }
+
+.italic {
+  font-style: italic; }
+
+.heading-24 {
+  font-family: 'Roboto', Ariel, sans-serif;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 1.1; }
+
+.heading-28 {
+  font-family: 'Roboto', Ariel, sans-serif;
+  font-weight: 300;
+  font-size: 28px;
+  line-height: 1.1; }
+
+.heading-32 {
+  font-family: 'Roboto', Ariel, sans-serif;
+  font-weight: 300;
+  font-size: 32px;
+  line-height: 1.1; }
+
+.heading-36 {
+  font-family: 'Roboto', Ariel, sans-serif;
+  font-weight: 300;
+  font-size: 36px;
+  line-height: 1.1; }
+
+.heading-42 {
+  font-family: 'Roboto', Ariel, sans-serif;
+  font-weight: 300;
+  font-size: 42px;
+  line-height: 1.1; }
+
+.heading-48 {
+  font-family: 'Roboto', Ariel, sans-serif;
+  font-weight: 300;
+  font-size: 48px;
+  line-height: 1.1; }
+
+.font-size-12 {
+  font-size: 12px; }
+
+.font-size-14 {
+  font-size: 14px; }
+
+.font-size-16 {
+  font-size: 16px; }
+
+.font-size-18 {
+  font-size: 18px; }
+
+.font-size-20 {
+  font-size: 20px; }
+
+.font-size-24 {
+  font-size: 24px; }
+
+.font-size-28 {
+  font-size: 28px; }
+
+.font-size-32 {
+  font-size: 32px; }
+
+.font-size-36 {
+  font-size: 36px; }
+
+.font-size-42 {
+  font-size: 42px; }
+
+.font-size-48 {
+  font-size: 48px; }
+
+.font-size-64 {
+  font-size: 64px; }
+
+@media only screen and (max-width: 375px) {
+  .__n__font-size-12 {
+    font-size: 12px; }
+  .__n__font-size-14 {
+    font-size: 14px; }
+  .__n__font-size-16 {
+    font-size: 16px; }
+  .__n__font-size-18 {
+    font-size: 18px; }
+  .__n__font-size-20 {
+    font-size: 20px; }
+  .__n__font-size-24 {
+    font-size: 24px; }
+  .__n__font-size-28 {
+    font-size: 28px; }
+  .__n__font-size-32 {
+    font-size: 32px; }
+  .__n__font-size-36 {
+    font-size: 36px; }
+  .__n__font-size-42 {
+    font-size: 42px; }
+  .__n__font-size-48 {
+    font-size: 48px; }
+  .__n__font-size-64 {
+    font-size: 64px; } }
+
+@media only screen and (min-width: 768px) {
+  .__m__font-size-12 {
+    font-size: 12px; }
+  .__m__font-size-14 {
+    font-size: 14px; }
+  .__m__font-size-16 {
+    font-size: 16px; }
+  .__m__font-size-18 {
+    font-size: 18px; }
+  .__m__font-size-20 {
+    font-size: 20px; }
+  .__m__font-size-24 {
+    font-size: 24px; }
+  .__m__font-size-28 {
+    font-size: 28px; }
+  .__m__font-size-32 {
+    font-size: 32px; }
+  .__m__font-size-36 {
+    font-size: 36px; }
+  .__m__font-size-42 {
+    font-size: 42px; }
+  .__m__font-size-48 {
+    font-size: 48px; }
+  .__m__font-size-64 {
+    font-size: 64px; } }
+
+@media only screen and (min-width: 1086px) {
+  .__w__font-size-12 {
+    font-size: 12px; }
+  .__w__font-size-14 {
+    font-size: 14px; }
+  .__w__font-size-16 {
+    font-size: 16px; }
+  .__w__font-size-18 {
+    font-size: 18px; }
+  .__w__font-size-20 {
+    font-size: 20px; }
+  .__w__font-size-24 {
+    font-size: 24px; }
+  .__w__font-size-28 {
+    font-size: 28px; }
+  .__w__font-size-32 {
+    font-size: 32px; }
+  .__w__font-size-36 {
+    font-size: 36px; }
+  .__w__font-size-42 {
+    font-size: 42px; }
+  .__w__font-size-48 {
+    font-size: 48px; }
+  .__w__font-size-64 {
+    font-size: 64px; } }
+
+.font-family-roboto {
+  font-family: 'Roboto', Ariel, sans-serif; }
+
+.font-family-condensed {
+  font-family: 'Roboto Condensed', 'Roboto', Ariel, sans-serif; }
+
+.font-weight-bold {
+  font-weight: 700; }
+
+.font-weight-medium {
+  font-weight: 500; }
+
+.font-weight-light {
+  font-weight: 300; }
+
+.font-smoothing {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+.text-shadow-1 {
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5); }
+
+.text-shadow-2 {
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); }
+
+sup {
+  vertical-align: super;
+  font-size: 0.6em; }
+
+.btn {
+  font-family: 'Roboto', Ariel, sans-serif;
+  font-weight: 500;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  padding: 0 20px;
+  line-height: 40px;
+  color: #303030;
+  font-size: 16px;
+  background: #e0e0e0;
+  text-align: center;
+  box-shadow: 1px 1px 3px 0px rgba(0, 0, 0, 0.5);
+  border: 1px solid #d8d8d8;
+  text-decoration: none;
+  transition: color background-color opacity width 0.2s;
+  -webkit-appearance: none;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  white-space: nowrap; }
+  .btn:active, .btn:focus {
+    outline: none; }
+  .btn:hover {
+    color: #303030;
+    text-decoration: none; }
+  .btn:hover {
+    background: #d8d8d8; }
+
+.btn--small {
+  font-size: 14px;
+  line-height: 28px;
+  padding: 0 10px; }
+
+.btn--large {
+  font-size: 22px;
+  line-height: 44px;
+  padding: 0 20px; }
+
+.btn--block {
+  width: 100%;
+  display: block; }
+
+.btn--link {
+  border: none;
+  background: none;
+  box-shadow: none;
+  color: #3365ff; }
+  .btn--link:hover {
+    background: none;
+    text-decoration: underline; }
+  .btn--link:active, .btn--link:hover, .btn--link:visited {
+    color: #3365ff; }
+
+.btn--inline {
+  padding: 0;
+  margin: 0;
+  font-size: inherit;
+  line-height: inherit; }
+
+.btn--primary {
+  color: #fff;
+  background-color: #3365ff;
+  border: 1px solid #2459ff; }
+  .btn--primary:hover {
+    color: #fff;
+    background-color: #1a52ff; }
+
+.btn--secondary {
+  color: #fff;
+  background-color: #663499;
+  border: 1px solid #5e308e; }
+  .btn--secondary:hover {
+    color: #fff;
+    background-color: #592e86; }
+
+.btn--tertiary {
+  color: #fff;
+  background-color: #cc3366;
+  border: 1px solid #c03060; }
+  .btn--tertiary:hover {
+    color: #fff;
+    background-color: #b82e5c; }
+
+.btn--altprimary {
+  color: #fff;
+  background-color: #FC682D;
+  border: 1px solid #fc5d1e; }
+  .btn--altprimary:hover {
+    color: #fff;
+    background-color: #fc5614; }
+
+.btn--altsecondary {
+  color: #fff;
+  background-color: #1BA7A8;
+  border: 1px solid #199a9b; }
+  .btn--altsecondary:hover {
+    color: #fff;
+    background-color: #179192; }
+
+.btn--cancel {
+  color: #606060;
+  background-color: #e0e0e0;
+  border: 1px solid #d8d8d8; }
+  .btn--cancel:visited, .btn--cancel:active, .btn--cancel:hover {
+    color: #606060; }
+  .btn--cancel:hover {
+    color: #606060;
+    background-color: lightgray; }
+
+.btn--disabled {
+  pointer-events: none;
+  background-color: #e0e0e0;
+  box-shadow: 1px 1px 3px 0px rgba(0, 0, 0, 0.1);
+  border: 1px solid #d8d8d8;
+  color: rgba(255, 255, 255, 0.8); }
+
+.clear {
+  clear: both; }
+
+@media only screen and (min-width: 768px) {
+  .__m__hidden {
+    display: none; } }
+
+@media only screen and (min-width: 1086px) {
+  .__w__hidden {
+    display: none; } }
+
+.flex-row {
+  display: flex;
+  flex-direction: row; }
+
+.flex-row--justified {
+  justify-content: space-between; }
+
+.flex-row--vcenter {
+  align-items: center; }
+
+.flex-row--wrap {
+  flex-wrap: wrap; }
+
+.flex {
+  display: flex !important; }
+
+.flex-justified {
+  justify-content: space-between; }
+
+.flex-center {
+  justify-content: center; }
+
+.flex-right {
+  justify-content: flex-end; }
+
+.flex-items-center {
+  align-items: center; }
+
+.flex-row {
+  flex-direction: row; }
+
+.flex-wrap {
+  flex-wrap: wrap; }
+
+.flex-grow {
+  flex-grow: 1; }
+
+.flex-column {
+  flex-direction: column; }
+
+.width-100p {
+  width: 100%; }
+
+.overflow-ellipsis {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis; }
+
+img.responsive {
+  display: block;
+  max-width: 100%;
+  width: 100%;
+  height: auto; }
+
+.mt-0 {
+  margin-top: 0px; }
+
+.mr-0 {
+  margin-right: 0px; }
+
+.mb-0 {
+  margin-bottom: 0px; }
+
+.ml-0 {
+  margin-left: 0px; }
+
+.mtb-0 {
+  margin-top: 0px;
+  margin-bottom: 0px; }
+
+.mlr-0 {
+  margin-left: 0px;
+  margin-right: 0px; }
+
+.mtrbl-0 {
+  margin: 0px; }
+
+.pt-0 {
+  padding-top: 0px; }
+
+.pr-0 {
+  padding-right: 0px; }
+
+.pb-0 {
+  padding-bottom: 0px; }
+
+.pl-0 {
+  padding-left: 0px; }
+
+.ptb-0 {
+  padding-top: 0px;
+  padding-bottom: 0px; }
+
+.plr-0 {
+  padding-left: 0px;
+  padding-right: 0px; }
+
+.ptrbl-0 {
+  padding: 0px; }
+
+.mt-5 {
+  margin-top: 5px; }
+
+.mr-5 {
+  margin-right: 5px; }
+
+.mb-5 {
+  margin-bottom: 5px; }
+
+.ml-5 {
+  margin-left: 5px; }
+
+.mtb-5 {
+  margin-top: 5px;
+  margin-bottom: 5px; }
+
+.mlr-5 {
+  margin-left: 5px;
+  margin-right: 5px; }
+
+.mtrbl-5 {
+  margin: 5px; }
+
+.pt-5 {
+  padding-top: 5px; }
+
+.pr-5 {
+  padding-right: 5px; }
+
+.pb-5 {
+  padding-bottom: 5px; }
+
+.pl-5 {
+  padding-left: 5px; }
+
+.ptb-5 {
+  padding-top: 5px;
+  padding-bottom: 5px; }
+
+.plr-5 {
+  padding-left: 5px;
+  padding-right: 5px; }
+
+.ptrbl-5 {
+  padding: 5px; }
+
+.mt-10 {
+  margin-top: 10px; }
+
+.mr-10 {
+  margin-right: 10px; }
+
+.mb-10 {
+  margin-bottom: 10px; }
+
+.ml-10 {
+  margin-left: 10px; }
+
+.mtb-10 {
+  margin-top: 10px;
+  margin-bottom: 10px; }
+
+.mlr-10 {
+  margin-left: 10px;
+  margin-right: 10px; }
+
+.mtrbl-10 {
+  margin: 10px; }
+
+.pt-10 {
+  padding-top: 10px; }
+
+.pr-10 {
+  padding-right: 10px; }
+
+.pb-10 {
+  padding-bottom: 10px; }
+
+.pl-10 {
+  padding-left: 10px; }
+
+.ptb-10 {
+  padding-top: 10px;
+  padding-bottom: 10px; }
+
+.plr-10 {
+  padding-left: 10px;
+  padding-right: 10px; }
+
+.ptrbl-10 {
+  padding: 10px; }
+
+.mt-15 {
+  margin-top: 15px; }
+
+.mr-15 {
+  margin-right: 15px; }
+
+.mb-15 {
+  margin-bottom: 15px; }
+
+.ml-15 {
+  margin-left: 15px; }
+
+.mtb-15 {
+  margin-top: 15px;
+  margin-bottom: 15px; }
+
+.mlr-15 {
+  margin-left: 15px;
+  margin-right: 15px; }
+
+.mtrbl-15 {
+  margin: 15px; }
+
+.pt-15 {
+  padding-top: 15px; }
+
+.pr-15 {
+  padding-right: 15px; }
+
+.pb-15 {
+  padding-bottom: 15px; }
+
+.pl-15 {
+  padding-left: 15px; }
+
+.ptb-15 {
+  padding-top: 15px;
+  padding-bottom: 15px; }
+
+.plr-15 {
+  padding-left: 15px;
+  padding-right: 15px; }
+
+.ptrbl-15 {
+  padding: 15px; }
+
+.mt-20 {
+  margin-top: 20px; }
+
+.mr-20 {
+  margin-right: 20px; }
+
+.mb-20 {
+  margin-bottom: 20px; }
+
+.ml-20 {
+  margin-left: 20px; }
+
+.mtb-20 {
+  margin-top: 20px;
+  margin-bottom: 20px; }
+
+.mlr-20 {
+  margin-left: 20px;
+  margin-right: 20px; }
+
+.mtrbl-20 {
+  margin: 20px; }
+
+.pt-20 {
+  padding-top: 20px; }
+
+.pr-20 {
+  padding-right: 20px; }
+
+.pb-20 {
+  padding-bottom: 20px; }
+
+.pl-20 {
+  padding-left: 20px; }
+
+.ptb-20 {
+  padding-top: 20px;
+  padding-bottom: 20px; }
+
+.plr-20 {
+  padding-left: 20px;
+  padding-right: 20px; }
+
+.ptrbl-20 {
+  padding: 20px; }
+
+.mt-25 {
+  margin-top: 25px; }
+
+.mr-25 {
+  margin-right: 25px; }
+
+.mb-25 {
+  margin-bottom: 25px; }
+
+.ml-25 {
+  margin-left: 25px; }
+
+.mtb-25 {
+  margin-top: 25px;
+  margin-bottom: 25px; }
+
+.mlr-25 {
+  margin-left: 25px;
+  margin-right: 25px; }
+
+.mtrbl-25 {
+  margin: 25px; }
+
+.pt-25 {
+  padding-top: 25px; }
+
+.pr-25 {
+  padding-right: 25px; }
+
+.pb-25 {
+  padding-bottom: 25px; }
+
+.pl-25 {
+  padding-left: 25px; }
+
+.ptb-25 {
+  padding-top: 25px;
+  padding-bottom: 25px; }
+
+.plr-25 {
+  padding-left: 25px;
+  padding-right: 25px; }
+
+.ptrbl-25 {
+  padding: 25px; }
+
+.mt-30 {
+  margin-top: 30px; }
+
+.mr-30 {
+  margin-right: 30px; }
+
+.mb-30 {
+  margin-bottom: 30px; }
+
+.ml-30 {
+  margin-left: 30px; }
+
+.mtb-30 {
+  margin-top: 30px;
+  margin-bottom: 30px; }
+
+.mlr-30 {
+  margin-left: 30px;
+  margin-right: 30px; }
+
+.mtrbl-30 {
+  margin: 30px; }
+
+.pt-30 {
+  padding-top: 30px; }
+
+.pr-30 {
+  padding-right: 30px; }
+
+.pb-30 {
+  padding-bottom: 30px; }
+
+.pl-30 {
+  padding-left: 30px; }
+
+.ptb-30 {
+  padding-top: 30px;
+  padding-bottom: 30px; }
+
+.plr-30 {
+  padding-left: 30px;
+  padding-right: 30px; }
+
+.ptrbl-30 {
+  padding: 30px; }
+
+.mt-35 {
+  margin-top: 35px; }
+
+.mr-35 {
+  margin-right: 35px; }
+
+.mb-35 {
+  margin-bottom: 35px; }
+
+.ml-35 {
+  margin-left: 35px; }
+
+.mtb-35 {
+  margin-top: 35px;
+  margin-bottom: 35px; }
+
+.mlr-35 {
+  margin-left: 35px;
+  margin-right: 35px; }
+
+.mtrbl-35 {
+  margin: 35px; }
+
+.pt-35 {
+  padding-top: 35px; }
+
+.pr-35 {
+  padding-right: 35px; }
+
+.pb-35 {
+  padding-bottom: 35px; }
+
+.pl-35 {
+  padding-left: 35px; }
+
+.ptb-35 {
+  padding-top: 35px;
+  padding-bottom: 35px; }
+
+.plr-35 {
+  padding-left: 35px;
+  padding-right: 35px; }
+
+.ptrbl-35 {
+  padding: 35px; }
+
+.mt-40 {
+  margin-top: 40px; }
+
+.mr-40 {
+  margin-right: 40px; }
+
+.mb-40 {
+  margin-bottom: 40px; }
+
+.ml-40 {
+  margin-left: 40px; }
+
+.mtb-40 {
+  margin-top: 40px;
+  margin-bottom: 40px; }
+
+.mlr-40 {
+  margin-left: 40px;
+  margin-right: 40px; }
+
+.mtrbl-40 {
+  margin: 40px; }
+
+.pt-40 {
+  padding-top: 40px; }
+
+.pr-40 {
+  padding-right: 40px; }
+
+.pb-40 {
+  padding-bottom: 40px; }
+
+.pl-40 {
+  padding-left: 40px; }
+
+.ptb-40 {
+  padding-top: 40px;
+  padding-bottom: 40px; }
+
+.plr-40 {
+  padding-left: 40px;
+  padding-right: 40px; }
+
+.ptrbl-40 {
+  padding: 40px; }
+
+.mt-45 {
+  margin-top: 45px; }
+
+.mr-45 {
+  margin-right: 45px; }
+
+.mb-45 {
+  margin-bottom: 45px; }
+
+.ml-45 {
+  margin-left: 45px; }
+
+.mtb-45 {
+  margin-top: 45px;
+  margin-bottom: 45px; }
+
+.mlr-45 {
+  margin-left: 45px;
+  margin-right: 45px; }
+
+.mtrbl-45 {
+  margin: 45px; }
+
+.pt-45 {
+  padding-top: 45px; }
+
+.pr-45 {
+  padding-right: 45px; }
+
+.pb-45 {
+  padding-bottom: 45px; }
+
+.pl-45 {
+  padding-left: 45px; }
+
+.ptb-45 {
+  padding-top: 45px;
+  padding-bottom: 45px; }
+
+.plr-45 {
+  padding-left: 45px;
+  padding-right: 45px; }
+
+.ptrbl-45 {
+  padding: 45px; }
+
+.mt-50 {
+  margin-top: 50px; }
+
+.mr-50 {
+  margin-right: 50px; }
+
+.mb-50 {
+  margin-bottom: 50px; }
+
+.ml-50 {
+  margin-left: 50px; }
+
+.mtb-50 {
+  margin-top: 50px;
+  margin-bottom: 50px; }
+
+.mlr-50 {
+  margin-left: 50px;
+  margin-right: 50px; }
+
+.mtrbl-50 {
+  margin: 50px; }
+
+.pt-50 {
+  padding-top: 50px; }
+
+.pr-50 {
+  padding-right: 50px; }
+
+.pb-50 {
+  padding-bottom: 50px; }
+
+.pl-50 {
+  padding-left: 50px; }
+
+.ptb-50 {
+  padding-top: 50px;
+  padding-bottom: 50px; }
+
+.plr-50 {
+  padding-left: 50px;
+  padding-right: 50px; }
+
+.ptrbl-50 {
+  padding: 50px; }
+
+.mt-60 {
+  margin-top: 60px; }
+
+.mr-60 {
+  margin-right: 60px; }
+
+.mb-60 {
+  margin-bottom: 60px; }
+
+.ml-60 {
+  margin-left: 60px; }
+
+.mtb-60 {
+  margin-top: 60px;
+  margin-bottom: 60px; }
+
+.mlr-60 {
+  margin-left: 60px;
+  margin-right: 60px; }
+
+.mtrbl-60 {
+  margin: 60px; }
+
+.pt-60 {
+  padding-top: 60px; }
+
+.pr-60 {
+  padding-right: 60px; }
+
+.pb-60 {
+  padding-bottom: 60px; }
+
+.pl-60 {
+  padding-left: 60px; }
+
+.ptb-60 {
+  padding-top: 60px;
+  padding-bottom: 60px; }
+
+.plr-60 {
+  padding-left: 60px;
+  padding-right: 60px; }
+
+.ptrbl-60 {
+  padding: 60px; }
+
+.mt-80 {
+  margin-top: 80px; }
+
+.mr-80 {
+  margin-right: 80px; }
+
+.mb-80 {
+  margin-bottom: 80px; }
+
+.ml-80 {
+  margin-left: 80px; }
+
+.mtb-80 {
+  margin-top: 80px;
+  margin-bottom: 80px; }
+
+.mlr-80 {
+  margin-left: 80px;
+  margin-right: 80px; }
+
+.mtrbl-80 {
+  margin: 80px; }
+
+.pt-80 {
+  padding-top: 80px; }
+
+.pr-80 {
+  padding-right: 80px; }
+
+.pb-80 {
+  padding-bottom: 80px; }
+
+.pl-80 {
+  padding-left: 80px; }
+
+.ptb-80 {
+  padding-top: 80px;
+  padding-bottom: 80px; }
+
+.plr-80 {
+  padding-left: 80px;
+  padding-right: 80px; }
+
+.ptrbl-80 {
+  padding: 80px; }
+
+.mt-100 {
+  margin-top: 100px; }
+
+.mr-100 {
+  margin-right: 100px; }
+
+.mb-100 {
+  margin-bottom: 100px; }
+
+.ml-100 {
+  margin-left: 100px; }
+
+.mtb-100 {
+  margin-top: 100px;
+  margin-bottom: 100px; }
+
+.mlr-100 {
+  margin-left: 100px;
+  margin-right: 100px; }
+
+.mtrbl-100 {
+  margin: 100px; }
+
+.pt-100 {
+  padding-top: 100px; }
+
+.pr-100 {
+  padding-right: 100px; }
+
+.pb-100 {
+  padding-bottom: 100px; }
+
+.pl-100 {
+  padding-left: 100px; }
+
+.ptb-100 {
+  padding-top: 100px;
+  padding-bottom: 100px; }
+
+.plr-100 {
+  padding-left: 100px;
+  padding-right: 100px; }
+
+.ptrbl-100 {
+  padding: 100px; }
+
+@media only screen and (max-width: 375px) {
+  .__n__mt-0 {
+    margin-top: 0px; }
+  .__n__mr-0 {
+    margin-right: 0px; }
+  .__n__mb-0 {
+    margin-bottom: 0px; }
+  .__n__ml-0 {
+    margin-left: 0px; }
+  .__n__mtb-0 {
+    margin-top: 0px;
+    margin-bottom: 0px; }
+  .__n__mlr-0 {
+    margin-left: 0px;
+    margin-right: 0px; }
+  .__n__mtrbl-0 {
+    margin: 0px; }
+  .__n__pt-0 {
+    padding-top: 0px; }
+  .__n__pr-0 {
+    padding-right: 0px; }
+  .__n__pb-0 {
+    padding-bottom: 0px; }
+  .__n__pl-0 {
+    padding-left: 0px; }
+  .__n__ptb-0 {
+    padding-top: 0px;
+    padding-bottom: 0px; }
+  .__n__plr-0 {
+    padding-left: 0px;
+    padding-right: 0px; }
+  .__n__ptrbl-0 {
+    padding: 0px; }
+  .__n__mt-5 {
+    margin-top: 5px; }
+  .__n__mr-5 {
+    margin-right: 5px; }
+  .__n__mb-5 {
+    margin-bottom: 5px; }
+  .__n__ml-5 {
+    margin-left: 5px; }
+  .__n__mtb-5 {
+    margin-top: 5px;
+    margin-bottom: 5px; }
+  .__n__mlr-5 {
+    margin-left: 5px;
+    margin-right: 5px; }
+  .__n__mtrbl-5 {
+    margin: 5px; }
+  .__n__pt-5 {
+    padding-top: 5px; }
+  .__n__pr-5 {
+    padding-right: 5px; }
+  .__n__pb-5 {
+    padding-bottom: 5px; }
+  .__n__pl-5 {
+    padding-left: 5px; }
+  .__n__ptb-5 {
+    padding-top: 5px;
+    padding-bottom: 5px; }
+  .__n__plr-5 {
+    padding-left: 5px;
+    padding-right: 5px; }
+  .__n__ptrbl-5 {
+    padding: 5px; }
+  .__n__mt-10 {
+    margin-top: 10px; }
+  .__n__mr-10 {
+    margin-right: 10px; }
+  .__n__mb-10 {
+    margin-bottom: 10px; }
+  .__n__ml-10 {
+    margin-left: 10px; }
+  .__n__mtb-10 {
+    margin-top: 10px;
+    margin-bottom: 10px; }
+  .__n__mlr-10 {
+    margin-left: 10px;
+    margin-right: 10px; }
+  .__n__mtrbl-10 {
+    margin: 10px; }
+  .__n__pt-10 {
+    padding-top: 10px; }
+  .__n__pr-10 {
+    padding-right: 10px; }
+  .__n__pb-10 {
+    padding-bottom: 10px; }
+  .__n__pl-10 {
+    padding-left: 10px; }
+  .__n__ptb-10 {
+    padding-top: 10px;
+    padding-bottom: 10px; }
+  .__n__plr-10 {
+    padding-left: 10px;
+    padding-right: 10px; }
+  .__n__ptrbl-10 {
+    padding: 10px; }
+  .__n__mt-15 {
+    margin-top: 15px; }
+  .__n__mr-15 {
+    margin-right: 15px; }
+  .__n__mb-15 {
+    margin-bottom: 15px; }
+  .__n__ml-15 {
+    margin-left: 15px; }
+  .__n__mtb-15 {
+    margin-top: 15px;
+    margin-bottom: 15px; }
+  .__n__mlr-15 {
+    margin-left: 15px;
+    margin-right: 15px; }
+  .__n__mtrbl-15 {
+    margin: 15px; }
+  .__n__pt-15 {
+    padding-top: 15px; }
+  .__n__pr-15 {
+    padding-right: 15px; }
+  .__n__pb-15 {
+    padding-bottom: 15px; }
+  .__n__pl-15 {
+    padding-left: 15px; }
+  .__n__ptb-15 {
+    padding-top: 15px;
+    padding-bottom: 15px; }
+  .__n__plr-15 {
+    padding-left: 15px;
+    padding-right: 15px; }
+  .__n__ptrbl-15 {
+    padding: 15px; }
+  .__n__mt-20 {
+    margin-top: 20px; }
+  .__n__mr-20 {
+    margin-right: 20px; }
+  .__n__mb-20 {
+    margin-bottom: 20px; }
+  .__n__ml-20 {
+    margin-left: 20px; }
+  .__n__mtb-20 {
+    margin-top: 20px;
+    margin-bottom: 20px; }
+  .__n__mlr-20 {
+    margin-left: 20px;
+    margin-right: 20px; }
+  .__n__mtrbl-20 {
+    margin: 20px; }
+  .__n__pt-20 {
+    padding-top: 20px; }
+  .__n__pr-20 {
+    padding-right: 20px; }
+  .__n__pb-20 {
+    padding-bottom: 20px; }
+  .__n__pl-20 {
+    padding-left: 20px; }
+  .__n__ptb-20 {
+    padding-top: 20px;
+    padding-bottom: 20px; }
+  .__n__plr-20 {
+    padding-left: 20px;
+    padding-right: 20px; }
+  .__n__ptrbl-20 {
+    padding: 20px; }
+  .__n__mt-25 {
+    margin-top: 25px; }
+  .__n__mr-25 {
+    margin-right: 25px; }
+  .__n__mb-25 {
+    margin-bottom: 25px; }
+  .__n__ml-25 {
+    margin-left: 25px; }
+  .__n__mtb-25 {
+    margin-top: 25px;
+    margin-bottom: 25px; }
+  .__n__mlr-25 {
+    margin-left: 25px;
+    margin-right: 25px; }
+  .__n__mtrbl-25 {
+    margin: 25px; }
+  .__n__pt-25 {
+    padding-top: 25px; }
+  .__n__pr-25 {
+    padding-right: 25px; }
+  .__n__pb-25 {
+    padding-bottom: 25px; }
+  .__n__pl-25 {
+    padding-left: 25px; }
+  .__n__ptb-25 {
+    padding-top: 25px;
+    padding-bottom: 25px; }
+  .__n__plr-25 {
+    padding-left: 25px;
+    padding-right: 25px; }
+  .__n__ptrbl-25 {
+    padding: 25px; }
+  .__n__mt-30 {
+    margin-top: 30px; }
+  .__n__mr-30 {
+    margin-right: 30px; }
+  .__n__mb-30 {
+    margin-bottom: 30px; }
+  .__n__ml-30 {
+    margin-left: 30px; }
+  .__n__mtb-30 {
+    margin-top: 30px;
+    margin-bottom: 30px; }
+  .__n__mlr-30 {
+    margin-left: 30px;
+    margin-right: 30px; }
+  .__n__mtrbl-30 {
+    margin: 30px; }
+  .__n__pt-30 {
+    padding-top: 30px; }
+  .__n__pr-30 {
+    padding-right: 30px; }
+  .__n__pb-30 {
+    padding-bottom: 30px; }
+  .__n__pl-30 {
+    padding-left: 30px; }
+  .__n__ptb-30 {
+    padding-top: 30px;
+    padding-bottom: 30px; }
+  .__n__plr-30 {
+    padding-left: 30px;
+    padding-right: 30px; }
+  .__n__ptrbl-30 {
+    padding: 30px; }
+  .__n__mt-35 {
+    margin-top: 35px; }
+  .__n__mr-35 {
+    margin-right: 35px; }
+  .__n__mb-35 {
+    margin-bottom: 35px; }
+  .__n__ml-35 {
+    margin-left: 35px; }
+  .__n__mtb-35 {
+    margin-top: 35px;
+    margin-bottom: 35px; }
+  .__n__mlr-35 {
+    margin-left: 35px;
+    margin-right: 35px; }
+  .__n__mtrbl-35 {
+    margin: 35px; }
+  .__n__pt-35 {
+    padding-top: 35px; }
+  .__n__pr-35 {
+    padding-right: 35px; }
+  .__n__pb-35 {
+    padding-bottom: 35px; }
+  .__n__pl-35 {
+    padding-left: 35px; }
+  .__n__ptb-35 {
+    padding-top: 35px;
+    padding-bottom: 35px; }
+  .__n__plr-35 {
+    padding-left: 35px;
+    padding-right: 35px; }
+  .__n__ptrbl-35 {
+    padding: 35px; }
+  .__n__mt-40 {
+    margin-top: 40px; }
+  .__n__mr-40 {
+    margin-right: 40px; }
+  .__n__mb-40 {
+    margin-bottom: 40px; }
+  .__n__ml-40 {
+    margin-left: 40px; }
+  .__n__mtb-40 {
+    margin-top: 40px;
+    margin-bottom: 40px; }
+  .__n__mlr-40 {
+    margin-left: 40px;
+    margin-right: 40px; }
+  .__n__mtrbl-40 {
+    margin: 40px; }
+  .__n__pt-40 {
+    padding-top: 40px; }
+  .__n__pr-40 {
+    padding-right: 40px; }
+  .__n__pb-40 {
+    padding-bottom: 40px; }
+  .__n__pl-40 {
+    padding-left: 40px; }
+  .__n__ptb-40 {
+    padding-top: 40px;
+    padding-bottom: 40px; }
+  .__n__plr-40 {
+    padding-left: 40px;
+    padding-right: 40px; }
+  .__n__ptrbl-40 {
+    padding: 40px; }
+  .__n__mt-45 {
+    margin-top: 45px; }
+  .__n__mr-45 {
+    margin-right: 45px; }
+  .__n__mb-45 {
+    margin-bottom: 45px; }
+  .__n__ml-45 {
+    margin-left: 45px; }
+  .__n__mtb-45 {
+    margin-top: 45px;
+    margin-bottom: 45px; }
+  .__n__mlr-45 {
+    margin-left: 45px;
+    margin-right: 45px; }
+  .__n__mtrbl-45 {
+    margin: 45px; }
+  .__n__pt-45 {
+    padding-top: 45px; }
+  .__n__pr-45 {
+    padding-right: 45px; }
+  .__n__pb-45 {
+    padding-bottom: 45px; }
+  .__n__pl-45 {
+    padding-left: 45px; }
+  .__n__ptb-45 {
+    padding-top: 45px;
+    padding-bottom: 45px; }
+  .__n__plr-45 {
+    padding-left: 45px;
+    padding-right: 45px; }
+  .__n__ptrbl-45 {
+    padding: 45px; }
+  .__n__mt-50 {
+    margin-top: 50px; }
+  .__n__mr-50 {
+    margin-right: 50px; }
+  .__n__mb-50 {
+    margin-bottom: 50px; }
+  .__n__ml-50 {
+    margin-left: 50px; }
+  .__n__mtb-50 {
+    margin-top: 50px;
+    margin-bottom: 50px; }
+  .__n__mlr-50 {
+    margin-left: 50px;
+    margin-right: 50px; }
+  .__n__mtrbl-50 {
+    margin: 50px; }
+  .__n__pt-50 {
+    padding-top: 50px; }
+  .__n__pr-50 {
+    padding-right: 50px; }
+  .__n__pb-50 {
+    padding-bottom: 50px; }
+  .__n__pl-50 {
+    padding-left: 50px; }
+  .__n__ptb-50 {
+    padding-top: 50px;
+    padding-bottom: 50px; }
+  .__n__plr-50 {
+    padding-left: 50px;
+    padding-right: 50px; }
+  .__n__ptrbl-50 {
+    padding: 50px; }
+  .__n__mt-60 {
+    margin-top: 60px; }
+  .__n__mr-60 {
+    margin-right: 60px; }
+  .__n__mb-60 {
+    margin-bottom: 60px; }
+  .__n__ml-60 {
+    margin-left: 60px; }
+  .__n__mtb-60 {
+    margin-top: 60px;
+    margin-bottom: 60px; }
+  .__n__mlr-60 {
+    margin-left: 60px;
+    margin-right: 60px; }
+  .__n__mtrbl-60 {
+    margin: 60px; }
+  .__n__pt-60 {
+    padding-top: 60px; }
+  .__n__pr-60 {
+    padding-right: 60px; }
+  .__n__pb-60 {
+    padding-bottom: 60px; }
+  .__n__pl-60 {
+    padding-left: 60px; }
+  .__n__ptb-60 {
+    padding-top: 60px;
+    padding-bottom: 60px; }
+  .__n__plr-60 {
+    padding-left: 60px;
+    padding-right: 60px; }
+  .__n__ptrbl-60 {
+    padding: 60px; }
+  .__n__mt-80 {
+    margin-top: 80px; }
+  .__n__mr-80 {
+    margin-right: 80px; }
+  .__n__mb-80 {
+    margin-bottom: 80px; }
+  .__n__ml-80 {
+    margin-left: 80px; }
+  .__n__mtb-80 {
+    margin-top: 80px;
+    margin-bottom: 80px; }
+  .__n__mlr-80 {
+    margin-left: 80px;
+    margin-right: 80px; }
+  .__n__mtrbl-80 {
+    margin: 80px; }
+  .__n__pt-80 {
+    padding-top: 80px; }
+  .__n__pr-80 {
+    padding-right: 80px; }
+  .__n__pb-80 {
+    padding-bottom: 80px; }
+  .__n__pl-80 {
+    padding-left: 80px; }
+  .__n__ptb-80 {
+    padding-top: 80px;
+    padding-bottom: 80px; }
+  .__n__plr-80 {
+    padding-left: 80px;
+    padding-right: 80px; }
+  .__n__ptrbl-80 {
+    padding: 80px; }
+  .__n__mt-100 {
+    margin-top: 100px; }
+  .__n__mr-100 {
+    margin-right: 100px; }
+  .__n__mb-100 {
+    margin-bottom: 100px; }
+  .__n__ml-100 {
+    margin-left: 100px; }
+  .__n__mtb-100 {
+    margin-top: 100px;
+    margin-bottom: 100px; }
+  .__n__mlr-100 {
+    margin-left: 100px;
+    margin-right: 100px; }
+  .__n__mtrbl-100 {
+    margin: 100px; }
+  .__n__pt-100 {
+    padding-top: 100px; }
+  .__n__pr-100 {
+    padding-right: 100px; }
+  .__n__pb-100 {
+    padding-bottom: 100px; }
+  .__n__pl-100 {
+    padding-left: 100px; }
+  .__n__ptb-100 {
+    padding-top: 100px;
+    padding-bottom: 100px; }
+  .__n__plr-100 {
+    padding-left: 100px;
+    padding-right: 100px; }
+  .__n__ptrbl-100 {
+    padding: 100px; } }
+
+.mlr-auto {
+  margin-left: auto;
+  margin-right: auto; }
+
+.bulleted-list {
+  list-style: disc;
+  padding-left: 20px; }
+
+.site-header {
+  font-family: 'Roboto', Ariel, sans-serif;
+  padding: 20px 10px;
+  margin-left: -10px;
+  margin-right: -10px;
+  min-height: 55px; }
+  @media only screen and (max-width: 375px) {
+    .site-header {
+      padding-top: 10px;
+      padding-bottom: 10px; } }
+  @media only screen and (min-width: 1086px) {
+    .site-header {
+      padding: 20px 0; } }
+  .site-header .btn {
+    height: 40px; }
+  .site-header .btn--small {
+    height: auto; }
+  .site-header .hidden {
+    display: none !important; }
+
+.site-header__inner {
+  position: relative;
+  color: #fff;
+  min-height: 40px; }
+  .site-header__inner a {
+    color: #fff; }
+    .site-header__inner a:hover {
+      color: #fff; }
+
+.site-header__divider {
+  height: 40px;
+  width: 0px;
+  border-left: 1px solid rgba(51, 51, 153, 0.4);
+  border-right: 1px solid rgba(255, 255, 255, 0.05);
+  margin: 0; }
+
+.site-session-state,
+.site-favorites {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 14px;
+  line-height: 1.3;
+  text-align: left; }
+  .site-session-state .ml-20,
+  .site-favorites .ml-20 {
+    margin-left: 20px; }
+  .site-session-state .ml-10,
+  .site-favorites .ml-10 {
+    margin-left: 10px; }
+  .site-session-state a.inverse,
+  .site-favorites a.inverse {
+    color: #fff; }
+    .site-session-state a.inverse:hover,
+    .site-favorites a.inverse:hover {
+      color: #fff; }
+  .site-session-state a.underline,
+  .site-favorites a.underline {
+    text-decoration: underline; }
+  .site-session-state.hidden,
+  .site-favorites.hidden {
+    display: none !important; }
+  .site-session-state .btn img,
+  .site-favorites .btn img {
+    vertical-align: top;
+    margin-top: 7px;
+    margin-right: 5px; }
+  .site-header__inner > .site-session-state, .site-header__inner >
+  .site-favorites {
+    display: none;
+    flex-direction: row;
+    align-items: center; }
+    @media only screen and (min-width: 768px) {
+      .site-header__inner > .site-session-state, .site-header__inner >
+      .site-favorites {
+        display: flex; } }
+    .site-header__inner > .site-session-state .btn, .site-header__inner >
+    .site-favorites .btn {
+      margin-left: 20px; }
+  .site-menu .site-session-state, .site-menu
+  .site-favorites {
+    font-size: 14px; }
+    .site-menu .site-session-state .btn, .site-menu
+    .site-favorites .btn {
+      display: block;
+      width: 100%; }
+    .site-menu .site-session-state * + .btn, .site-menu
+    .site-favorites * + .btn {
+      margin-top: 10px; }
+
+.site-session-state__action,
+a.site-session-state__action,
+.site-favorites__action,
+a.site-favorites__action {
+  display: block;
+  line-height: 40px;
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  padding: 0 15px;
+  background: rgba(255, 255, 255, 0.1);
+  text-align: center;
+  border-radius: 4px;
+  font-size: 16px; }
+  .site-session-state__action:hover,
+  a.site-session-state__action:hover,
+  .site-favorites__action:hover,
+  a.site-favorites__action:hover {
+    text-decoration: none;
+    background: rgba(255, 255, 255, 0.2); }
+
+.site-session-state__action,
+a.site-session-state__action {
+  padding: 0 30px; }
+  .site-session-state__action svg,
+  a.site-session-state__action svg {
+    height: 1em;
+    width: 0.625em;
+    vertical-align: -.125em; }
+
+.site-favorites__action svg,
+a.site-favorites__action svg {
+  width: 2.0em;
+  height: 1.5em;
+  vertical-align: -.35em;
+  color: #ffcc00;
+  -webkit-transform: rotate(0);
+          transform: rotate(0);
+  transition: 0.15s; }
+  .session-dropdown--active .site-favorites__action svg, .session-dropdown--active
+  a.site-favorites__action svg {
+    -webkit-transform: rotate(73deg);
+            transform: rotate(73deg);
+    color: #ffcc00; }
+
+.session-dropdown--active .session-dropdown__list {
+  opacity: 1;
+  -webkit-transform: scaleY(1);
+          transform: scaleY(1); }
+
+.session-dropdown--active .site-session-state__action svg {
+  -webkit-transform: scaleY(-1);
+          transform: scaleY(-1); }
+
+.session-dropdown--active .site-favorites__action svg .__stroke {
+  display: none; }
+
+.session-dropdown--active .site-favorites__action svg .__solid {
+  display: inherit; }
+
+.session-dropdown {
+  position: relative; }
+
+.session-dropdown__list {
+  position: absolute;
+  z-index: 1;
+  top: 60px;
+  right: 0;
+  margin: 0;
+  padding: 0;
+  background: #fff;
+  min-width: 200px;
+  text-align: left;
+  box-shadow: 1px 3px 5px -2px rgba(0, 0, 0, 0.3);
+  list-style: none;
+  border-radius: 2px;
+  opacity: 0;
+  -webkit-transform: scaleY(0);
+          transform: scaleY(0);
+  -webkit-transform-origin: 50% -20px;
+          transform-origin: 50% -20px;
+  transition: all 0.15s; }
+  .site-favorites .session-dropdown__list {
+    width: 400px; }
+  .session-dropdown__list:before {
+    content: "";
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    border: 0.8em solid transparent;
+    right: 20px;
+    top: -20px;
+    border-bottom: 10px solid #fff; }
+  .session-dropdown__list li {
+    border-bottom: 1px solid #e0e0e0; }
+    .session-dropdown__list li:last-child {
+      border: none; }
+  .session-dropdown__list a, .session-dropdown__list li > div {
+    display: block;
+    padding: 0 15px;
+    line-height: 50px;
+    font-weight: 500;
+    font-size: 14px;
+    color: #303030; }
+  .session-dropdown__list a {
+    color: #3365ff;
+    text-decoration: none; }
+    .session-dropdown__list a:hover {
+      color: #505050;
+      text-decoration: none; }
+  .session-dropdown__list i, .session-dropdown__list svg {
+    margin-right: 10px; }
+
+.session-dropdown__item--game img {
+  width: 150px;
+  height: auto; }
+
+.site-header__logo {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+  justify-content: center;
+  text-align: center;
+  margin: 0; }
+  @media only screen and (min-width: 768px) {
+    .site-header__logo {
+      margin: 0px;
+      justify-content: flex-start; } }
+  .site-header__logo a, .site-header__logo img {
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+  .site-header__logo img {
+    width: calc(100% - 100px);
+    min-width: 200px;
+    max-width: 390px;
+    height: auto; }
+    @media only screen and (min-width: 768px) {
+      .site-header__logo img {
+        width: 100%; } }
+
+.site-menu {
+  position: absolute;
+  left: 0px;
+  top: 50%;
+  -webkit-transform: translateY(-20px);
+          transform: translateY(-20px);
+  min-width: 40px;
+  background: #333399;
+  color: rgba(255, 255, 255, 0.85);
+  text-align: left;
+  border-radius: 2px;
+  padding: 0 10px;
+  cursor: pointer;
+  z-index: 99;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none; }
+  @media only screen and (min-width: 768px) {
+    .site-menu {
+      display: none; } }
+  @media only screen and (max-width: 375px) {
+    .site-menu {
+      top: 0px;
+      -webkit-transform: none;
+              transform: none; } }
+  .site-menu ol, .site-menu ul {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    list-style: none; }
+
+.site-menu--active {
+  width: 300px;
+  padding: 10px 20px;
+  left: -10px;
+  -webkit-transform: translateY(-30px);
+          transform: translateY(-30px);
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+  cursor: default; }
+  @media only screen and (max-width: 375px) {
+    .site-menu--active {
+      -webkit-transform: translateY(-10px);
+              transform: translateY(-10px); } }
+  .site-menu--active .site-menu__links {
+    display: block; }
+  .site-menu--active .site-menu__header span {
+    display: inline; }
+  .site-menu--active .site-menu__close {
+    display: inline-block; }
+
+.site-menu__header {
+  display: flex;
+  align-items: center;
+  height: 40px;
+  line-height: 40px; }
+  .site-menu__header span {
+    display: none;
+    margin-left: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale; }
+    @media only screen and (min-width: 1086px) {
+      .site-menu__header span {
+        display: inline; } }
+
+.site-menu__bars,
+.site-menu__close {
+  height: 20px;
+  width: 20px; }
+
+.site-menu__close {
+  display: none;
+  margin-left: auto;
+  cursor: pointer; }
+
+.site-menu__grades, .site-menu__session,
+.site-menu__categories, .site-menu__links ul {
+  border-top: 1px solid rgba(51, 102, 255, 0.8);
+  margin: 10px 0;
+  padding-top: 10px; }
+  .site-menu__grades h3, .site-menu__session h3, .site-menu__categories h3, .site-menu__links ul h3 {
+    color: #5C83FA;
+    font-size: 18px;
+    margin-bottom: 5px;
+    line-height: inherit;
+    letter-spacing: inherit;
+    font-weight: 400; }
+
+.site-menu__sessionbuttons img, .site-menu__categories img {
+  display: inline-block;
+  vertical-align: middle;
+  width: 50px;
+  height: 50px;
+  margin-right: 10px; }
+
+.site-menu__sessionbuttons a, .site-menu__categories a {
+  display: block;
+  line-height: 50px;
+  padding: 5px 0;
+  margin: 10px 0;
+  border-radius: 4px;
+  transition: all 0.2s;
+  text-decoration: none; }
+  .site-menu__sessionbuttons a:hover, .site-menu__categories a:hover {
+    text-decoration: none;
+    padding-left: 10px; }
+    @media only screen and (min-width: 1086px) {
+      .site-menu__sessionbuttons a:hover, .site-menu__categories a:hover {
+        background: rgba(255, 255, 255, 0.1); } }
+
+.site-menu__grades {
+  padding-bottom: 10px; }
+  .site-menu__grades h3 {
+    width: 100%;
+    flex-grow: 1; }
+  .site-menu__grades a {
+    display: block;
+    width: 33.33333%;
+    padding: 5px;
+    border-radius: 4px;
+    transition: all 0.2s; }
+    .site-menu__grades a:hover {
+      background: rgba(255, 255, 255, 0.1); }
+
+.site-menu__info a {
+  line-height: 38px;
+  color: rgba(255, 255, 255, 0.8);
+  border-radius: 4px;
+  transition: all 0.2s; }
+  .site-menu__info a:hover {
+    color: white;
+    text-decoration: none; }
+
+.site-menu__links {
+  display: none;
+  font-size: 16px; }
+  .site-menu__links ul a {
+    display: block;
+    text-decoration: none; }
+    .site-menu__links ul a:hover {
+      padding-left: 10px; }
+      @media only screen and (min-width: 1086px) {
+        .site-menu__links ul a:hover {
+          background: rgba(255, 255, 255, 0.1); } }
+
+.site-menu__session {
+  display: none;
+  padding-top: 15px;
+  margin-bottom: 15px; }
+  @media only screen and (max-width: 375px) {
+    .site-menu__session {
+      display: block; } }
+
+.site-footer {
+  border-top: none !important;
+  padding-top: 0px;
+  text-align: center;
+  margin-bottom: 40px; }
+  .site-footer > div {
+    margin: 20px auto; }
+    .site-footer > div:last-child {
+      margin-bottom: 0; }
+
+.site-footer__separator {
+  display: block;
+  margin: 0 0 20px 0;
+  height: 20px;
+  background: #333399;
+  border: none; }
+
+.site-footer__links {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  @media only screen and (min-width: 768px) {
+    .site-footer__links {
+      flex-direction: row;
+      flex-wrap: wrap; } }
+
+.site-footer__link {
+  margin-top: 5px;
+  margin-bottom: 5px; }
+  @media only screen and (min-width: 768px) {
+    .site-footer__link {
+      margin-right: 10px; }
+      .site-footer__link:after {
+        content: "|";
+        margin-left: 10px; } }
+
+.site-footer__link--last {
+  margin-bottom: 20px; }
+  @media only screen and (min-width: 768px) {
+    .site-footer__link--last {
+      margin-bottom: 5px;
+      margin-right: 30px; } }
+  .site-footer__link--last:after {
+    display: none; }
+
+.site-footer__link--big {
+  font-size: 1.1em;
+  font-weight: bold; }
+  .site-footer__link--big:after {
+    font-weight: normal;
+    font-size: 0.90909em; }
+
+.site-footer__help {
+  min-width: 120px; }
+
+.game-frame {
+  position: relative;
+  font-size: 0.1px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px; }
+  @media only screen and (max-width: 767px) {
+    .game-frame {
+      padding: 40px 20px;
+      background: #000; } }
+  .game-frame--tablet {
+    padding: 60px 20px;
+    background: #000; }
+  @media only screen and (min-width: 768px) {
+    .game-controller--redirect .game-frame {
+      min-height: 500px; } }
+
+.game-frame--modal #game,
+.game-frame--modal iframe,
+.game-frame--upgrade #game,
+.game-frame--upgrade iframe,
+.game-frame--redirect #game,
+.game-frame--redirect iframe {
+  pointer-events: none;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none; }
+
+.game-frame__play {
+  font-family: 'Roboto', Ariel, sans-serif;
+  font-weight: 500;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  display: flex;
+  width: 100%;
+  max-width: 400px;
+  align-items: center;
+  justify-content: center;
+  height: 60px;
+  border-radius: 4px;
+  font-size: 20px;
+  color: #fff;
+  background-color: #3365ff;
+  border: 1px solid #2459ff;
+  cursor: pointer; }
+  .game-frame__play:hover {
+    color: #fff;
+    background-color: #1a52ff; }
+
+.game-frame__img {
+  width: 180px;
+  height: 80px; }
+  .game-frame__img--disabled {
+    -webkit-filter: grayscale(100%) contrast(120%);
+            filter: grayscale(100%) contrast(120%); }
+
+.game-frame__title {
+  font-family: 'Roboto', Ariel, sans-serif;
+  font-weight: 500;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 16px;
+  color: #fff;
+  margin-bottom: 10px;
+  height: 40px;
+  line-height: 40px;
+  white-space: nowrap;
+  text-overflow: ellipsis; }
+  .game-frame__title--disabled {
+    visibility: hidden; }
+
+.game-frame__incompatible {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 40px;
+  background: #000000;
+  background: rgba(0, 0, 0, 0.7);
+  font-family: 'Roboto', Ariel, sans-serif;
+  color: #fff; }
+
+.game-frame__noflash {
+  font-size: 16px;
+  max-width: 700px;
+  margin: 0 auto; }
+
+.game-modal {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: opacity 0.15s;
+  opacity: 0; }
+  @media only screen and (max-width: 767px) {
+    .game-modal {
+      background: rgba(0, 0, 0, 0.8);
+      border-radius: 4px; } }
+  .game-controller--modal .game-modal {
+    opacity: 1; }
+
+@media only screen and (max-width: 767px) {
+  .game-modal__heading {
+    font-size: 22px;
+    color: #fff; } }
+
+.game-modal__prompt {
+  font-size: 14px;
+  background: #fff;
+  border-radius: 4px;
+  max-width: 400px;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+  transition: -webkit-transform 0.15s;
+  transition: transform 0.15s;
+  transition: transform 0.15s, -webkit-transform 0.15s;
+  -webkit-transform: scale(0);
+          transform: scale(0); }
+  @media only screen and (max-width: 767px) {
+    .game-modal__prompt {
+      background: transparent;
+      max-width: 100%;
+      box-shadow: none; } }
+  .game-controller--modal .game-modal__prompt {
+    -webkit-transform: scale(1);
+            transform: scale(1); }
+
+.game-modal__actions .btn--block {
+  width: 48%;
+  width: calc(50% - 5px); }
+
+.game-modal__footer {
+  margin-left: -15px;
+  margin-right: -15px; }
+  @media only screen and (max-width: 767px) {
+    .game-modal__footer {
+      font-size: 12px;
+      color: #fff; } }
+
+.game-modal__logo {
+  width: 100%;
+  height: auto; }
+  @media only screen and (min-width: 768px) {
+    .game-modal__logo {
+      position: absolute;
+      top: 0;
+      left: 50%;
+      width: 350px;
+      height: auto;
+      -webkit-transform: translate(-50%, -70px);
+              transform: translate(-50%, -70px); } }
+
+.game-modal--redirect .btn--link {
+  line-height: 2.0;
+  padding: 0;
+  margin: 0; }
+  @media only screen and (max-width: 375px) {
+    .game-modal--redirect .btn--link {
+      font-size: 14px; } }
+
+.game-toolbar {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin: 10px auto 20px auto; }
+  @media only screen and (max-width: 375px) {
+    .game-toolbar {
+      flex-direction: column-reverse;
+      flex-wrap: nowrap; } }
+
+.game-toolbar--disabled {
+  opacity: 0.5;
+  pointer-events: none; }
+
+.game-toolbar__item, .game-toolbar__share, .game-toolbar__favorite {
+  display: flex;
+  width: calc(50% - 10px);
+  align-items: center;
+  justify-content: center;
+  height: 60px;
+  background: #fafafa;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+  font-size: 16px; }
+  @media only screen and (min-width: 768px) {
+    .game-toolbar__item, .game-toolbar__share, .game-toolbar__favorite {
+      width: 40%; } }
+  @media only screen and (max-width: 375px) {
+    .game-toolbar__item, .game-toolbar__share, .game-toolbar__favorite {
+      width: 100%;
+      margin-bottom: 10px; } }
+
+.game-toolbar__share {
+  position: relative;
+  margin-right: 20px; }
+  .game-toolbar__share > div:not(.game-toolbar__label) {
+    width: 36px;
+    height: 36px; }
+  @media only screen and (max-width: 375px) {
+    .game-toolbar__share {
+      margin-right: 0px; } }
+  .game-toolbar__share:hover:before {
+    content: "";
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    border: 10px solid transparent;
+    left: 27px;
+    top: -5px;
+    border-top: 10px solid #333; }
+  .game-toolbar__share:hover:after {
+    content: "Click the green icon to share";
+    position: absolute;
+    top: -35px;
+    left: 0px;
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    background: #333;
+    color: #f5f5f5;
+    font-size: 13px;
+    border-radius: 4px;
+    text-align: center;
+    font-weight: 500; }
+
+.game-toolbar__favorite {
+  cursor: pointer; }
+  .game-toolbar__favorite:hover {
+    background: #f0f0f0; }
+  .game-toolbar__favorite svg {
+    width: 40px;
+    height: 30px;
+    color: #ffcc00; }
+
+.game-toolbar__fullscreen {
+  display: none;
+  width: 100%;
+  flex-grow: 1;
+  margin-bottom: 10px; }
+  @media only screen and (min-width: 768px) {
+    .game-toolbar__fullscreen {
+      display: block; } }
+
+.game-toolbar__label {
+  font-family: 'Roboto', Ariel, sans-serif;
+  font-weight: 500;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none; }
+
+.game-toolbar__modal {
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0; }
+
+.game-toolbar__backdrop {
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5); }
+
+.game-toolbar__prompt {
+  position: fixed;
+  z-index: 2;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -80%);
+          transform: translate(-50%, -80%);
+  font-size: 14px;
+  background: #fff;
+  border-radius: 4px;
+  margin: auto;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+  width: 100%;
+  width: calc(100% - 40px); }
+  @media only screen and (min-width: 768px) {
+    .game-toolbar__prompt {
+      width: 500px; } }
+  .game-toolbar__prompt--favorite {
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%); }
+    .game-toolbar__prompt--favorite .heading-28 {
+      border-bottom: 1px solid #e0e0e0; }
+
+.game-toolbar__actions .btn--block {
+  width: 48%;
+  width: calc(50% - 5px); }
+
+.game-stage {
+  position: fixed;
+  top: 100%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  transition: all 0.2s;
+  z-index: 999999999999; }
+  .game-stage .fa-times {
+    color: #fff;
+    font-size: 32px;
+    position: absolute;
+    top: 10px;
+    right: 15px; }
+  .game-stage--active {
+    top: 0; }
+
+.game-stage--noscroll {
+  max-height: 100%;
+  max-width: 100%;
+  overflow: hidden;
+  -webkit-overflow-scrolling: auto; }
+
+.game-stub {
+  display: none;
+  position: absolute;
+  top: 100%;
+  right: 100%;
+  width: 0px !important;
+  height: 0px !important; }
+
+.game-favorite-help {
+  text-align: left;
+  border: 2px solid #f0f0f0;
+  border-radius: 4px;
+  padding: 20px 20px;
+  font-size: 16px; }
+  .game-favorite-help__heading {
+    font-weight: 700;
+    margin: 0 0 20px 0;
+    color: #333; }
+  .game-favorite-help ol {
+    margin: 0;
+    padding: 0 0 0 20px;
+    list-style-type: decimal; }
+  .game-favorite-help li {
+    line-height: 1em;
+    margin-bottom: 20px; }
+    .game-favorite-help li:last-child {
+      margin-bottom: 0px; }
+
+.game-favorite-rows {
+  width: 100%;
+  max-height: 350px;
+  overflow-y: auto; }
+
+.game-favorite-row {
+  display: flex;
+  align-items: center;
+  text-align: left;
+  border: 2px solid #f0f0f0;
+  padding: 0px 15px;
+  height: 60px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  font-size: 16px;
+  font-family: 'Roboto', Ariel, sans-serif;
+  font-weight: 500;
+  color: #333;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none; }
+  .game-favorite-row:last-child {
+    margin-bottom: 0px; }
+  .game-favorite-row:hover {
+    border-color: #3365ff; }
+  .game-favorite-row[data-checked="true"] .game-favorite-row__check {
+    color: #3365ff; }
+  .game-favorite-row__name {
+    flex-grow: 1; }
+  .game-favorite-row__check {
+    color: #e0e0e0; }
+  .game-favorite-row__visibility {
+    font-size: 13px;
+    font-weight: 400; }
+
+.flash-instructions {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #fff;
+  background: black;
+  font-size: 20px;
+  border-radius: 4px;
+  padding: 20px; }
+
+.game-tile {
+  position: relative; }
+
+.filter--mobile .game-tile--nomobile {
+  display: none; }
+
+.game-tile--bronze:after {
+  position: absolute;
+  display: block;
+  content: "Premium";
+  font-family: 'Roboto Condensed', 'Roboto', Ariel, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-transform: uppercase;
+  top: -5px;
+  left: 0px;
+  line-height: 24px;
+  border-radius: 12px;
+  font-size: 14px;
+  letter-spacing: 1px;
+  padding: 0 10px;
+  color: #fff;
+  background: #3366ff;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 2px 1px 1px rgba(0, 0, 0, 0.3);
+  border: 1px soild rgba(0, 0, 0, 0.05);
+  -webkit-transform: scale(0.7);
+          transform: scale(0.7);
+  -webkit-transform-origin: top left;
+          transform-origin: top left;
+  pointer-events: none;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  transition: -webkit-transform 0.15s;
+  transition: transform 0.15s;
+  transition: transform 0.15s, -webkit-transform 0.15s; }
+
+.game-tile--bronze:hover:after {
+  -webkit-transform: scale(1) rotate(-10deg) translateX(-10px);
+          transform: scale(1) rotate(-10deg) translateX(-10px); }
+
+.game-tile__separator {
+  margin: 0 2px; }
+
+.game-tile__footer {
+  display: none;
+  font-family: 'Roboto Condensed', 'Roboto', Ariel, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 11px;
+  line-height: 1.3em;
+  color: #606060;
+  -webkit-transform: scaleX(0);
+          transform: scaleX(0);
+  -webkit-transform-origin: center;
+          transform-origin: center;
+  transition: all 0.15s; }
+  @media only screen and (min-width: 768px) {
+    .game-tile__footer {
+      display: block; } }
+  .game-tile:hover .game-tile__footer {
+    -webkit-transform: scaleX(1);
+            transform: scaleX(1); }
+  .game-tile__footer a {
+    color: #3365ff; }
+
+.mobile-legend {
+  float: left;
+  width: calc(100% + 30px);
+  background: #fafafa;
+  border-top: 1px solid #e0e0e0;
+  border-bottom: 1px solid #e0e0e0;
+  margin: 0px -15px 30px -15px;
+  padding: 10px 20px; }
+  .mobile-legend .fa-mobile-alt {
+    color: #3366ff; }
+  .mobile-legend__content {
+    font-family: 'Roboto', Ariel, sans-serif;
+    font-weight: 500;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: left;
+    margin-left: 20px;
+    line-height: 1.3em;
+    color: #404040; }
+  .mobile-legend__switch {
+    margin-left: 20px; }
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 28px;
+  flex-shrink: 0;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }
+  .switch input {
+    display: none; }
+    .switch input:checked + .switch__slider {
+      background-color: #47A64F; }
+    .switch input:checked + .switch__slider:before {
+      -webkit-transform: translateX(32px);
+              transform: translateX(32px); }
+    .switch input:checked ~ .switch__label--checked {
+      display: block; }
+    .switch input:checked ~ .switch__label--unchecked {
+      display: none; }
+
+.switch__slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  transition: .15s;
+  border-radius: 34px;
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.3) inset; }
+  .switch__slider:before {
+    position: absolute;
+    content: "";
+    height: 20px;
+    width: 20px;
+    left: 4px;
+    bottom: 4px;
+    border-radius: 50%;
+    background-color: white;
+    transition: .15s;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3); }
+
+.switch__label {
+  position: absolute;
+  height: 28px;
+  line-height: 28px;
+  top: 0;
+  left: 8px;
+  right: 8px;
+  bottom: 0;
+  color: rgba(255, 255, 255, 0.5);
+  pointer-events: none;
+  text-transform: uppercase;
+  font-family: 'Roboto Condensed', 'Roboto', Ariel, sans-serif; }
+  .switch__label--checked {
+    display: none;
+    text-align: left;
+    color: #fff; }
+  .switch__label--unchecked {
+    text-align: right; }
+
+.site-header {
+  border-bottom: 1px solid transparent;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.02); }
+  .site-header__inner {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto; }
+
+.site-footer {
+  clear: both;
+  overflow: hidden;
+  width: 100%; }
+  .site-footer__links {
+    color: #3365ff; }
+  .site-footer__link {
+    color: #3365ff;
+    text-decoration: none; }
+    .site-footer__link:hover {
+      color: #3365ff;
+      text-decoration: underline; }
+</style><script id="tyche" type="text/javascript" src="./index_files/tyche.js.download" data-cfasync="false"></script><script type="text/javascript" src="./index_files/moatheader.js.download" async=""></script><style type="text/css" id="pwCustomCSS">/* fix because pub is removing the ad label and report and it is required for KidSafe compliance */
+div.pw_report_ad_container {
+  display: block !important;
+}
+
+div.pw_report_ad_container span {
+  font-size: 16px !important;
+  font-weight: 400 !important;
+  font-family: arial !important;
+  color: #111 !important;
+}
+
+div#pw-oop-left_rail div.pw_report_ad_container {
+  bottom: -25px !important;
+}
+
+div#pw-oop-left_rail div.pw_report_ad_container span {
+  color: #fff !important;
+}
+
+</style><script src="./index_files/tyche.js(1).download" type="text/javascript"></script><script src="./index_files/aws-sdk-kinesis.min.js.gz"></script><script type="text/javascript" src="./index_files/runtime.e27f74bd096051323955.js.download"></script><script type="text/javascript" src="./index_files/npm.core-js.9ecd3933ce7c5b26ca2f.js.download"></script><script type="text/javascript" src="./index_files/npm.lodash.39a04a8f1c96ade254ee.js.download"></script><script type="text/javascript" src="./index_files/npm.babel.816b6b897780bce545f1.js.download"></script><script type="text/javascript" src="./index_files/npm.intersection-observer.312f6562336e9769b3ec.js.download"></script><script type="text/javascript" src="./index_files/635.c6832658487cc1354cf2.js.download"></script><script type="text/javascript" src="./index_files/main.bf37a7dbc80f8d440528.js.download"></script><script type="text/javascript" src="./index_files/lib.37dee626aab965fa63d6.js.download"></script><script type="text/javascript" src="./index_files/gpt.js.download" async=""></script><meta http-equiv="origin-trial" content="A+cA2PUOfIOKAdSDJOW5CP9ZlxONy1yu+hqAq72zUtKw4rLdihqRp6Nui/jUyCyegr+BUtH+C+Elv0ufn05yBQEAAACFeyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiUHJpdmFjeVNhbmRib3hBZHNBUElzIiwiZXhwaXJ5IjoxNjY5NzY2Mzk5LCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlfQ=="><meta http-equiv="origin-trial" content="A+zsdH3aNZT/bkjT8U/o5ACzyaeNYzTvtoVmwf/KOilfv39pxY2AIsOwhQJv+YnXp98i3TqrQibIVtMWs5UHjgoAAACLeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiUHJpdmFjeVNhbmRib3hBZHNBUElzIiwiZXhwaXJ5IjoxNjY5NzY2Mzk5LCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlfQ=="><meta http-equiv="origin-trial" content="AxceVEhIegcDEHqLXFQ2+vPKqzCppoJYsRCZ/BdfVnbM/sUUF2BXV8lwNosyYjvoxnTh2FC8cOlAnA5uULr/zAUAAACLeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXRhZ3NlcnZpY2VzLmNvbTo0NDMiLCJmZWF0dXJlIjoiUHJpdmFjeVNhbmRib3hBZHNBUElzIiwiZXhwaXJ5IjoxNjY5NzY2Mzk5LCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlfQ=="><script src="./index_files/pubads_impl_2022100301.js.download" async=""></script><style type="text/css" id="pwCSSstyling">.pw-tag { text-align: center; opacity: 1}.pw-oop-tag {width: 1px; height: 1px; line-height:1px; position: fixed}.pw-tag-hidden { visibility: hidden; opacity: 0}.pw-in-article { padding:20px 0; }.pw-in-article_hidden { visibility: hidden; height:0; }.pw-fixed-mobile-leaderboard{ position: fixed;bottom: 0px;left: 50%;width: 320px;height:50px;margin-left:-160px;z-index: 2147483645;text-align: center;padding: 2px 0;background: rgba(0, 0, 0, 0.8);transition: opacity .6s ease-in}.fixed-mobile-close { cursor: pointer;border-top: 1px solid rgba(0,0,0,0.35);border-left: 1px solid rgba(0,0,0,0.35);border-right: 1px solid rgba(0,0,0,0.35);border-radius: 4px 4px 0 0; padding: 3px 6px 3px 6px;position: absolute; top: -22px; right: -1px; z-index: -1;background-color: rgba(0,0,0,0.55);box-shadow: inset 0 0 0 1px rgba(255,255,255,0.2);color: rgba(255,255,255,0.75);line-height: 1.2;font-size: 12px;font-family: Helvetica,Arial,sans-serif;-webkit-transition: all .5s ease-out;-moz-transition: all .5s ease-out;-o-transition: all .5s ease-out;transition: all .5s ease-out;}.pw-siderail-left-close { cursor: pointer;border-top: 1px solid rgba(0,0,0,0.35);border-left: 1px solid rgba(0,0,0,0.35);border-right: 1px solid rgba(0,0,0,0.35);border-radius: 4px 4px 0 0; padding: 3px 6px 3px 6px; position: absolute;top: -22px; left: -1px; z-index: -1; background-color: rgba(0,0,0,0.55);box-shadow: inset 0 0 0 1px rgba(255,255,255,0.2);color: rgba(255,255,255,0.75);line-height: 1.2;font-size: 12px;font-family: Helvetica,Arial,sans-serif;-webkit-transition: all .5s ease-out;-moz-transition: all .5s ease-out;-o-transition: all .5s ease-out;transition: all .5s ease-out;}.pw-siderail-right-close { cursor: pointer;border-top: 1px solid rgba(0,0,0,0.35);border-left: 1px solid rgba(0,0,0,0.35);border-right: 1px solid rgba(0,0,0,0.35);border-radius: 4px 4px 0 0; padding: 3px 6px 3px 6px; position: absolute;top: -22px; right: -1px; z-index: -1; background-color: rgba(0,0,0,0.55);box-shadow: inset 0 0 0 1px rgba(255,255,255,0.2);color: rgba(255,255,255,0.75);line-height: 1.2;font-size: 12px;font-family: Helvetica,Arial,sans-serif;-webkit-transition: all .5s ease-out;-moz-transition: all .5s ease-out;-o-transition: all .5s ease-out;transition: all .5s ease-out;}div[data-pw-desk="leaderboard_atf"].pw-sticky,div[data-pw-mobi="leaderboard_atf"].pw-sticky { z-index: 2147483645;position: fixed; top:0px; left:0px; width: 100%; padding: 20px 0;background: rgba(0,0,0,.2);overflow:hidden;transition: 750ms opacity ease-out;opacity: 1;border-bottom: 1px solid rgba(238, 238, 238, 0.4)}div[data-pw-desk="med_rect_atf"].pw-sticky { z-index: 2147483644;position: fixed; width: 300px; padding: 0; background: transparent;overflow:hidden;transition: 750ms opacity ease-out;opacity: 1;border-bottom: 20px solid #fff;border-top: 20px solid #fff}.pws-sticky:before {z-index: -1;-webkit-filter: blur(34px);width: 100%;height: 100%;content: "";position: absolute;top: 0px;left: 0px;background: rgba(0,0,0,.5);}.pw-sticky-hide{opacity: 0%;}#pw-oop-behind_page { z-index: 0}#pw-oop-site_skin { z-index: 0}#pw-oop-above_page { z-index: 2147483647}#pw-oop-top_rail { top: 0px; left:0px}#pw-oop-left_rail { left: 0px; top: 0px; position: fixed;min-width:160px;height:600px}#pw-oop-right_rail { right: 0px; top: 0px; position: fixed;min-width:160px;height:600px}.pw-tps{ display: none }#tycheConsole{ background-color: #fff; border-top: 1px solid;font-family: Arial, Helvetica, sans-serif; font-size: 12px;position: fixed; bottom: 0; width: 100%; padding: 0 2% 2% 2%;z-index: 9999999999; box-sizing: border-box}#tycheConsole a:visited{ color: rgb(52, 152, 219) }#tycheConsole li:hover{background: rgba(52, 152, 219,.26)}.ad__name{ display:inline-block; width: 15%; font-weight:bold;}div[data-pw-desk="leaderboard_atf"] > div > iframe { margin:auto; }#pw-oop-bottom_rail > div > iframe { margin:auto; }#video_backfill {position: relative; top: 50%; transform: translateY(-50%); -ms-transform: translateY(-50%);z-index: 11}#video_backfill > .pw_report_ad_container { display: block}</style><link rel="preload" href="./index_files/f.txt" as="script"><script type="text/javascript" src="./index_files/f.txt"></script><link rel="stylesheet" type="text/css" href="./index_files/report_ad_style.css"><link rel="preload" href="./index_files/f.txt" as="script"><script type="text/javascript" src="./index_files/f.txt"></script></head>
+<body data-controller="asdf" class="asdf" style=""><div id="pw-oop-flex_leaderboard_container"><div id="pw-oop-flex_leaderboard" class="pw-tag pw-oop-tag" data-google-query-id="CJbs3JT4y_oCFWQQwQodQYYM9A" data-pw-status="rendered" style="display: none;"><div id="google_ads_iframe_/96780239,10850682/1015837/62236/1015837-62236-flex_leaderboard_0__container__" style="border: 0pt none;"></div></div></div>
+<noscript data-gtm="1"><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NNT6PQ9" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<header data-header="1" class="site-header" role="banner" data-controller="site-header">
+    <div class="site-header__inner flex flex-row flex-right flex-items-center" data-controller="site-tabs">
+      
+  <h1 class="site-header__logo">
+    <a href="https://www.mathplayground.com/" class="" data-target="site-tabs.mathplayground">
+      <img src="./index_files/logo-mp-aea2b4c16e805af461509a99ce6a1a55.png" alt="Math Playground" width="390" height="61">
+    </a>
+  </h1>
+
+      
+    <div class="site-session-state">
+      <a class="site-session-state__action" href="https://www.mathplayground.com/subscribe">
+        <span class="font-weight-bold">Subscribe</span>
+      </a>
+      <div class="session-dropdown ml-20" data-controller="dropdown" data-dropdown-class-name="session-dropdown" data-action="mouseleave-&gt;dropdown#setCloseTimer mouseenter-&gt;dropdown#cancelCloseTimer">
+        <div class="site-session-state__action" data-action="click-&gt;dropdown#toggle">
+          <span class="font-weight-bold mr-5">Sign In</span>
+          
+    <svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+      <path fill="currentColor" d="M143 352.3L7 216.3c-9.4-9.4-9.4-24.6 0-33.9l22.6-22.6c9.4-9.4 24.6-9.4 33.9 0l96.4 96.4 96.4-96.4c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9l-136 136c-9.2 9.4-24.4 9.4-33.8 0z"></path>
+    </svg>
+  
+        </div>
+        <ul class="session-dropdown__list">
+          <li class="session-dropdown__item session-dropdown__item--classroom">
+            <a href="https://www.mathplayground.com/classroom/signin"><svg class="svg-inline--fa fa-school fa-w-20 fa-fw fa-lg" aria-hidden="true" data-prefix="fas" data-icon="school" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512" data-fa-i2svg=""><path fill="currentColor" d="M0 224v272c0 8.84 7.16 16 16 16h80V192H32c-17.67 0-32 14.33-32 32zm360-48h-24v-40c0-4.42-3.58-8-8-8h-16c-4.42 0-8 3.58-8 8v64c0 4.42 3.58 8 8 8h48c4.42 0 8-3.58 8-8v-16c0-4.42-3.58-8-8-8zm137.75-63.96l-160-106.67a32.02 32.02 0 0 0-35.5 0l-160 106.67A32.002 32.002 0 0 0 128 138.66V512h128V368c0-8.84 7.16-16 16-16h96c8.84 0 16 7.16 16 16v144h128V138.67c0-10.7-5.35-20.7-14.25-26.63zM320 256c-44.18 0-80-35.82-80-80s35.82-80 80-80 80 35.82 80 80-35.82 80-80 80zm288-64h-64v320h80c8.84 0 16-7.16 16-16V224c0-17.67-14.33-32-32-32z"></path></svg><!-- <i class="fas fa-school fa-fw fa-lg"></i> -->Classroom</a>
+          </li>
+          <li class="session-dropdown__item session-dropdown__item--family">
+            <a href="https://www.mathplayground.com/family/signin"><svg class="svg-inline--fa fa-users fa-w-20 fa-fw fa-lg" aria-hidden="true" data-prefix="fas" data-icon="users" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512" data-fa-i2svg=""><path fill="currentColor" d="M96 224c35.3 0 64-28.7 64-64s-28.7-64-64-64-64 28.7-64 64 28.7 64 64 64zm448 0c35.3 0 64-28.7 64-64s-28.7-64-64-64-64 28.7-64 64 28.7 64 64 64zm32 32h-64c-17.6 0-33.5 7.1-45.1 18.6 40.3 22.1 68.9 62 75.1 109.4h66c17.7 0 32-14.3 32-32v-32c0-35.3-28.7-64-64-64zm-256 0c61.9 0 112-50.1 112-112S381.9 32 320 32 208 82.1 208 144s50.1 112 112 112zm76.8 32h-8.3c-20.8 10-43.9 16-68.5 16s-47.6-6-68.5-16h-8.3C179.6 288 128 339.6 128 403.2V432c0 26.5 21.5 48 48 48h288c26.5 0 48-21.5 48-48v-28.8c0-63.6-51.6-115.2-115.2-115.2zm-223.7-13.4C161.5 263.1 145.6 256 128 256H64c-35.3 0-64 28.7-64 64v32c0 17.7 14.3 32 32 32h65.9c6.3-47.4 34.9-87.3 75.2-109.4z"></path></svg><!-- <i class="fas fa-users fa-fw fa-lg"></i> -->Family</a>
+          </li>
+          <li class="session-dropdown__item session-dropdown__item--teacher">
+            <a href="https://www.mathplayground.com/teacher/signin"><svg class="svg-inline--fa fa-chalkboard-teacher fa-w-20 fa-fw fa-lg" aria-hidden="true" data-prefix="fas" data-icon="chalkboard-teacher" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512" data-fa-i2svg=""><path fill="currentColor" d="M208 352c-2.39 0-4.78.35-7.06 1.09C187.98 357.3 174.35 360 160 360c-14.35 0-27.98-2.7-40.95-6.91-2.28-.74-4.66-1.09-7.05-1.09C49.94 352-.33 402.48 0 464.62.14 490.88 21.73 512 48 512h224c26.27 0 47.86-21.12 48-47.38.33-62.14-49.94-112.62-112-112.62zm-48-32c53.02 0 96-42.98 96-96s-42.98-96-96-96-96 42.98-96 96 42.98 96 96 96zM592 0H208c-26.47 0-48 22.25-48 49.59V96c23.42 0 45.1 6.78 64 17.8V64h352v288h-64v-64H384v64h-76.24c19.1 16.69 33.12 38.73 39.69 64H592c26.47 0 48-22.25 48-49.59V49.59C640 22.25 618.47 0 592 0z"></path></svg><!-- <i class="fas fa-chalkboard-teacher fa-fw fa-lg"></i> -->Teacher</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  
+      
+      
+    <nav class="site-menu" data-site-menu="true" data-controller="site-menu" data-action="click-&gt;site-menu#open mouseleave-&gt;site-menu#setCloseTimer mouseenter-&gt;site-menu#cancelCloseTimer">
+      
+    <header class="site-menu__header">
+      <svg aria-hidden="true" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="site-menu__bars">
+        <path fill="currentColor" d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z" class=""></path>
+      </svg>
+      <span>Menu</span>
+      <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" class="site-menu__close" data-action="click-&gt;site-menu#close">
+        <path fill="currentColor" d="M217.5 256l137.2-137.2c4.7-4.7 4.7-12.3 0-17l-8.5-8.5c-4.7-4.7-12.3-4.7-17 0L192 230.5 54.8 93.4c-4.7-4.7-12.3-4.7-17 0l-8.5 8.5c-4.7 4.7-4.7 12.3 0 17L166.5 256 29.4 393.2c-4.7 4.7-4.7 12.3 0 17l8.5 8.5c4.7 4.7 12.3 4.7 17 0L192 281.5l137.2 137.2c4.7 4.7 12.3 4.7 17 0l8.5-8.5c4.7-4.7 4.7-12.3 0-17L217.5 256z" class=""></path>
+      </svg>
+    </header>
+  
+      <div class="site-menu__links">
+        <div class="site-menu__session">
+    <div class="site-session-state">
+      <a href="https://www.mathplayground.com/classroom/signin" class="btn btn--altprimary">
+        <svg class="svg-inline--fa fa-school fa-w-20 fa-fw fa-lg mr-5" aria-hidden="true" data-prefix="fas" data-icon="school" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512" data-fa-i2svg=""><path fill="currentColor" d="M0 224v272c0 8.84 7.16 16 16 16h80V192H32c-17.67 0-32 14.33-32 32zm360-48h-24v-40c0-4.42-3.58-8-8-8h-16c-4.42 0-8 3.58-8 8v64c0 4.42 3.58 8 8 8h48c4.42 0 8-3.58 8-8v-16c0-4.42-3.58-8-8-8zm137.75-63.96l-160-106.67a32.02 32.02 0 0 0-35.5 0l-160 106.67A32.002 32.002 0 0 0 128 138.66V512h128V368c0-8.84 7.16-16 16-16h96c8.84 0 16 7.16 16 16v144h128V138.67c0-10.7-5.35-20.7-14.25-26.63zM320 256c-44.18 0-80-35.82-80-80s35.82-80 80-80 80 35.82 80 80-35.82 80-80 80zm288-64h-64v320h80c8.84 0 16-7.16 16-16V224c0-17.67-14.33-32-32-32z"></path></svg><!-- <i class="fas fa-school fa-fw fa-lg mr-5"></i> -->
+        Classroom Sign In
+      </a>
+
+      <a href="https://www.mathplayground.com/family/signin" class="btn btn--altsecondary">
+        <svg class="svg-inline--fa fa-users fa-w-20 fa-fw fa-lg mr-5" aria-hidden="true" data-prefix="fas" data-icon="users" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512" data-fa-i2svg=""><path fill="currentColor" d="M96 224c35.3 0 64-28.7 64-64s-28.7-64-64-64-64 28.7-64 64 28.7 64 64 64zm448 0c35.3 0 64-28.7 64-64s-28.7-64-64-64-64 28.7-64 64 28.7 64 64 64zm32 32h-64c-17.6 0-33.5 7.1-45.1 18.6 40.3 22.1 68.9 62 75.1 109.4h66c17.7 0 32-14.3 32-32v-32c0-35.3-28.7-64-64-64zm-256 0c61.9 0 112-50.1 112-112S381.9 32 320 32 208 82.1 208 144s50.1 112 112 112zm76.8 32h-8.3c-20.8 10-43.9 16-68.5 16s-47.6-6-68.5-16h-8.3C179.6 288 128 339.6 128 403.2V432c0 26.5 21.5 48 48 48h288c26.5 0 48-21.5 48-48v-28.8c0-63.6-51.6-115.2-115.2-115.2zm-223.7-13.4C161.5 263.1 145.6 256 128 256H64c-35.3 0-64 28.7-64 64v32c0 17.7 14.3 32 32 32h65.9c6.3-47.4 34.9-87.3 75.2-109.4z"></path></svg><!-- <i class="fas fa-users fa-fw fa-lg mr-5"></i> -->
+        Family Sign In
+      </a>
+
+      <a href="https://www.mathplayground.com/teacher/signin" class="btn btn--primary">
+        <svg class="svg-inline--fa fa-chalkboard-teacher fa-w-20 fa-fw fa-lg mr-5" aria-hidden="true" data-prefix="fas" data-icon="chalkboard-teacher" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512" data-fa-i2svg=""><path fill="currentColor" d="M208 352c-2.39 0-4.78.35-7.06 1.09C187.98 357.3 174.35 360 160 360c-14.35 0-27.98-2.7-40.95-6.91-2.28-.74-4.66-1.09-7.05-1.09C49.94 352-.33 402.48 0 464.62.14 490.88 21.73 512 48 512h224c26.27 0 47.86-21.12 48-47.38.33-62.14-49.94-112.62-112-112.62zm-48-32c53.02 0 96-42.98 96-96s-42.98-96-96-96-96 42.98-96 96 42.98 96 96 96zM592 0H208c-26.47 0-48 22.25-48 49.59V96c23.42 0 45.1 6.78 64 17.8V64h352v288h-64v-64H384v64h-76.24c19.1 16.69 33.12 38.73 39.69 64H592c26.47 0 48-22.25 48-49.59V49.59C640 22.25 618.47 0 592 0z"></path></svg><!-- <i class="fas fa-chalkboard-teacher fa-fw fa-lg mr-5"></i> -->
+        Teacher Sign In
+      </a>
+
+      <a href="https://www.mathplayground.com/subscribe" class="btn btn--tertiary">
+        Subscribe
+      </a>
+    </div>
+  </div>
+        
+    <div class="site-menu__grades flex flex-row flex-justified flex-wrap">
+      <h3>
+        Browse by Grade
+      </h3>
+      <a href="https://www.mathplayground.com/kindergarten_games.html">
+        <img alt="Kindergarten Games" class="responsive" src="./index_files/Global_Menu_Grade_K.png">
+      </a>
+      <a href="https://www.mathplayground.com/grade_1_games.html">
+        <img alt="1st Grade Games" class="responsive" src="./index_files/Global_Menu_Grade_1-5f0dc93f9d2e9fd44e30bdd52ba4b839e427043eb19e3a617a76b311a6ed2458.png">
+      </a>
+      <a href="https://www.mathplayground.com/grade_2_games.html">
+        <img alt="2nd Grade Games" class="responsive" src="./index_files/Global_Menu_Grade_2-1a8c191dd2de4e7d3ae1b86b3952d07176ea34baa8d9e85479d946c1adfb8cc2.png">
+      </a>
+      <a href="https://www.mathplayground.com/grade_3_games.html">
+        <img alt="3rd Grade Games" class="responsive" src="./index_files/Global_Menu_Grade_3-5cdb3a14182d4be8919d91aa899fc1503fc33466a34bdef37b4764d04bf81850.png">
+      </a>
+      <a href="https://www.mathplayground.com/grade_4_games.html">
+        <img alt="4th Grade Games" class="responsive" src="./index_files/Global_Menu_Grade_4-ab246e3580ffeda44bba535f6c707ddb914fb4b6328bc20dee25406bc6d5f188.png">
+      </a>
+      <a href="https://www.mathplayground.com/grade_5_games.html">
+        <img alt="5th Grade Games" class="responsive" src="./index_files/Global_Menu_Grade_5-0e2204bebbe67f31ed49b0eff595843b476f4ce1a0e9d24a7758d301a1bb8c94.png">
+      </a>
+      <a href="https://www.mathplayground.com/grade_6_games.html">
+        <img alt="6th Grade Games" class="responsive" src="./index_files/Global_Menu_Grade_6-7108c6659d3a68f8200dd163b135cbcf6ae7bcf4226be6eea9f6e126867e7f20.png">
+      </a>
+    </div>
+  
+        
+    <div class="site-menu__categories">
+      <h3>
+        Browse by Category
+      </h3>
+      <a href="https://www.mathplayground.com/math-games.html">
+        <img src="./index_files/Global_Menu_MathGames-9bb27c225d99aff9dea946d3b6bad42332d7b96b85bdd582266b7340e29adefc.png">
+        Math Games
+      </a>
+      <a href="https://www.mathplayground.com/logic-games.html">
+        <img src="./index_files/Global_Menu_LogicGames-8aadefa5d4b2f1cd9c3d0a274b44b7f8859b0db34847aba2d677239fb17381e9.png">
+        Logic Games
+      </a>
+      <a href="https://www.mathplayground.com/ASB_Index.html">
+        <img src="./index_files/Global_Menu_MathArcade-8c624442b9df17366e1c48a3bc95c9fd89c40598aa5bac1aafca8d311df7868e.png">
+        Math Arcade
+      </a>
+      <a href="https://www.mathplayground.com/wordproblems.html">
+        <img src="./index_files/Global_Menu_MathStory-80e6d430d3d9eafa757038b4280fe7253c8b3a7c8a9ed4343739e17400b7b0c8.png">
+        Story Math
+      </a>
+      <a href="https://www.mathplayground.com/mathvideos.html">
+        <img src="./index_files/Global_Menu_MathVideos-f9c46ba129d2700d2c05fb8c0de36f8a06ed58e9db6c665611765d62064196c5.png">
+        Math Videos
+      </a>
+      <a href="https://www.mathplayground.com/game_directory.html">
+        <img src="./index_files/Global_Menu_AllGames-c5d24c7611b7d55760a81a144f62f5d0c8625aa4dc171e944300afdbbce5425d.png">
+        All Games
+      </a>
+    </div>
+  
+        
+    <ul class="site-menu__info">
+      <li>
+        <a href="https://www.mathplayground.com/thinkingblocks.html">Thinking Blocks</a>
+      </li>
+    </ul>
+  
+        
+    <ul class="site-menu__info">
+      <li>
+        <a href="https://www.mathplayground.com/support.html">Get Help</a>
+      </li>
+      <li>
+        <a href="https://www.mathplayground.com/about.html">About Us</a>
+      </li>
+      <li>
+        <a href="https://www.mathplayground.com/privacy">Privacy Policy</a>
+      </li>
+      <li>
+        <a href="https://www.mathplayground.com/terms-of-service">Terms of Service</a>
+      </li>
+      <li><a href="https://www.mathplayground.com/payment-terms">Payment Terms</a></li>
+    </ul>
+  
+      </div>
+    </nav>
+  
+    </div>
+  </header>
+<div id="header_container2" class="parent-header site-leaderboard site-leaderboard--a" data-leaderboard="a">
+<div class="child-header">
+<div class="ad-caption" style="font-size: 16px; color: white;" data-asdf="1">Advertisement</div><br>
+
+<div style="margin-top: -20px; max-height: 250px;" data-pw-desk="leaderboard_atf" id="leaderboard_atf" class="pw-tag" data-google-query-id="CPGFkZT4y_oCFUMUwQodPEoM-g"><div id="google_ads_iframe_/96780239,10850682/1015837/62236/1015837-62236-desktop_leaderboard/1015837-62236-desktop_leaderboard-CP/1015837-62236-desktop_leaderboard-CP-game-pages_0__container__" style="border: 0pt none;"><iframe id="google_ads_iframe_/96780239,10850682/1015837/62236/1015837-62236-desktop_leaderboard/1015837-62236-desktop_leaderboard-CP/1015837-62236-desktop_leaderboard-CP-game-pages_0" name="google_ads_iframe_/96780239,10850682/1015837/62236/1015837-62236-desktop_leaderboard/1015837-62236-desktop_leaderboard-CP/1015837-62236-desktop_leaderboard-CP-game-pages_0" title="3rd party ad content" width="728" height="90" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" role="region" aria-label="ad" tabindex="0" style="border: 0px; vertical-align: bottom;" data-load-complete="true" data-google-container-id="1" src="./index_files/saved_resource.html"></iframe></div><div class="pw_report_ad_container" style="line-height:normal;display:block;"><a id="report_ad_leaderboard_atf" href="https://www.mathplayground.com/pg_drift_boss.html#" class="playwire_report_ad_link" style="color: #4db2ec;font-size:10px !important;font-family:&quot;Open Sans&quot;,arial,sans-serif !important">Report Ad</a></div></div>
+
+<div style="margin-top: -20px" data-pw-mobi="leaderboard_atf"></div>
+</div>
+</div>
+
+
+<div id="message_nav" class="container">
+<a href="https://www.puzzleplayground.com/" target="_blank"><img alt="Puzzle Playground" src="./index_files/nav-bar-message2d.png" width="1000" height="40" class="img-puzzle-message"></a>
+</div>
+<div id="header_nav" class="container">
+<a href="https://www.mathplayground.com/math-games.html"><img src="./index_files/button_math.png" alt="math games"></a>
+<a href="https://www.mathplayground.com/logic-games.html"><img src="./index_files/button_logic.png" alt="logic games"></a>
+<a href="https://www.mathplayground.com/ASB_Index.html"><img src="./index_files/button_arcade.png" alt="math arcade"></a>
+<a href="https://www.mathplayground.com/wordproblems.html"><img src="./index_files/button_story.png" alt="math word problems"></a>
+<a href="https://www.mathplayground.com/mathvideos.html"><img src="./index_files/button_videos.png" alt="math videos"></a>
+<a href="https://www.mathplayground.com/game_directory.html"><img src="./index_files/button_all_games.png" alt="all games"></a>
+</div>
+<div id="header_grades" class="container">
+<a href="https://www.mathplayground.com/kindergarten_games.html">
+<img alt="Kindergarten Games" class="responsive" src="./index_files/Global_Menu_Grade_K.png">
+</a>
+<a href="https://www.mathplayground.com/grade_1_games.html">
+<img alt="1st Grade Games" class="responsive" src="./index_files/Global_Menu_Grade_1-5f0dc93f9d2e9fd44e30bdd52ba4b839e427043eb19e3a617a76b311a6ed2458.png">
+</a>
+<a href="https://www.mathplayground.com/grade_2_games.html">
+<img alt="2nd Grade Games" class="responsive" src="./index_files/Global_Menu_Grade_2-1a8c191dd2de4e7d3ae1b86b3952d07176ea34baa8d9e85479d946c1adfb8cc2.png">
+</a>
+<a href="https://www.mathplayground.com/grade_3_games.html">
+<img alt="3rd Grade Games" class="responsive" src="./index_files/Global_Menu_Grade_3-5cdb3a14182d4be8919d91aa899fc1503fc33466a34bdef37b4764d04bf81850.png">
+</a>
+<a href="https://www.mathplayground.com/grade_4_games.html">
+<img alt="4th Grade Games" class="responsive" src="./index_files/Global_Menu_Grade_4-ab246e3580ffeda44bba535f6c707ddb914fb4b6328bc20dee25406bc6d5f188.png">
+</a>
+<a href="https://www.mathplayground.com/grade_5_games.html">
+<img alt="5th Grade Games" class="responsive" src="./index_files/Global_Menu_Grade_5-0e2204bebbe67f31ed49b0eff595843b476f4ce1a0e9d24a7758d301a1bb8c94.png">
+</a>
+<a href="https://www.mathplayground.com/grade_6_games.html">
+<img alt="6th Grade Games" class="responsive" src="./index_files/Global_Menu_Grade_6-7108c6659d3a68f8200dd163b135cbcf6ae7bcf4226be6eea9f6e126867e7f20.png">
+</a>
+</div>
+<div class="container">
+<header class="grade-navigation">
+<div class="col-grade-game">
+<a href="https://www.mathplayground.com/kindergarten_games.html"><img class="img-game-index" src="./index_files/btn_grade_k.png" alt="kindergarten math games"></a>
+<h6>Kindergarten</h6>
+</div>
+<div class="col-grade-game">
+<a href="https://www.mathplayground.com/grade_1_games.html"><img class="img-game-index" src="./index_files/btn_grade_1.png" alt="1st grade math games"></a>
+<h6>1st Grade</h6>
+</div>
+<div class="col-grade-game">
+<a href="https://www.mathplayground.com/grade_2_games.html"><img class="img-game-index" src="./index_files/btn_grade_2.png" alt="2nd grade math games"></a>
+<h6>2nd Grade</h6>
+</div>
+<div class="col-grade-game">
+<a href="https://www.mathplayground.com/grade_3_games.html"><img class="img-game-index" src="./index_files/btn_grade_3.png" alt="3rd grade math games"></a>
+<h6>3rd Grade</h6>
+</div>
+<div class="col-grade-game">
+<a href="https://www.mathplayground.com/grade_4_games.html"><img class="img-game-index" src="./index_files/btn_grade_4.png" alt="4th grade math games"></a>
+<h6>4th Grade</h6>
+</div>
+<div class="col-grade-game">
+<a href="https://www.mathplayground.com/grade_5_games.html"><img class="img-game-index" src="./index_files/btn_grade_5.png" alt="5th grade math games"></a>
+<h6>5th Grade</h6>
+</div>
+<div class="col-grade-game">
+<a href="https://www.mathplayground.com/grade_6_games.html"><img class="img-game-index" src="./index_files/btn_grade_6.png" alt="6th grade math games"></a>
+<h6>6th Grade</h6>
+</div>
+<div class="col-puzzle-callout col-teachers-callout">
+<a href="https://www.mathplayground.com/fun-skill-games.html"><img width="310" height="80" src="./index_files/fun-skill-games-02.png" alt="Fun Skill Games"></a>
+<h6>
+Fun Games for Kids
+</h6>
+</div>
+</header>
+<div id="gameTitleImage" style="margin-top: 30px">
+<img class="img-game-title" src="./index_files/driftboss_title.png">
+</div>
+<div id="game-col" class="col-game-wide" align="center" style="width:90%; margin-left:5%; margin-right:5%;" data-controller="game"><div id="game-frame" class="game-frame" data-target="game.frame">
+    
+  <iframe id="game" src="./index_files/index.html" width="643" height="363.1058823529412" scrolling="no" frameborder="0" data-target="game.game"></iframe></div><div class="game-toolbar" data-controller="game-toolbar" data-target="game.toolbar">
+      
+  <div class="game-toolbar__fullscreen">
+    <a class="btn btn--link" data-action="click-&gt;game-toolbar#toggleFullscreen">
+      <svg class="svg-inline--fa fa-expand-arrows-alt fa-w-14" aria-hidden="true" data-prefix="fas" data-icon="expand-arrows-alt" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg=""><path fill="currentColor" d="M448.1 344v112c0 13.3-10.7 24-24 24h-112c-21.4 0-32.1-25.9-17-41l36.2-36.2L224 295.6 116.8 402.9 153 439c15.1 15.1 4.4 41-17 41H24c-13.3 0-24-10.7-24-24V344c0-21.4 25.9-32.1 41-17l36.2 36.2L184.5 256 77.2 148.7 41 185c-15.1 15.1-41 4.4-41-17V56c0-13.3 10.7-24 24-24h112c21.4 0 32.1 25.9 17 41l-36.2 36.2L224 216.4l107.3-107.3L295.1 73c-15.1-15.1-4.4-41 17-41h112c13.3 0 24 10.7 24 24v112c0 21.4-25.9 32.1-41 17l-36.2-36.2L263.6 256l107.3 107.3 36.2-36.2c15.1-15.2 41-4.5 41 16.9z"></path></svg><!-- <i class="fas fa-expand-arrows-alt"></i> --> Subscribers may view in full screen mode
+    </a>
+  </div>
+
+      
+  <div class="game-toolbar__share" data-target="game-toolbar.share">
+    <div id="___sharetoclassroom_0" style="text-indent: 0px; margin: 0px; padding: 0px; background: transparent; border-style: none; float: none; line-height: normal; font-size: 1px; vertical-align: baseline; display: inline-block; width: 36px; height: 36px;"><iframe ng-non-bindable="" frameborder="0" hspace="0" marginheight="0" marginwidth="0" scrolling="no" style="position: static; top: 0px; width: 36px; margin: 0px; border-style: none; left: 0px; visibility: visible; height: 36px;" tabindex="0" vspace="0" width="100%" id="I0_1665070811843" name="I0_1665070811843" src="./index_files/sharewidget.html" data-gapiattached="true"></iframe></div>
+    <div class="ml-10 game-toolbar__label">Share to Google Classroom</div>
+  </div>
+
+      
+  <div class="game-toolbar__favorite" data-target="game-toolbar.favorite" data-action="click-&gt;game-toolbar#toggleFavorite">
+    
+      
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+      <path class="__stroke" fill="currentColor" d="M528.1 171.5L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6zM388.6 312.3l23.7 138.4L288 385.4l-124.3 65.3 23.7-138.4-100.6-98 139-20.2 62.2-126 62.2 126 139 20.2-100.6 98z"></path>
+      
+    </svg>
+  
+      <div class="ml-10 game-toolbar__label">
+        Save to Favorites
+      </div>
+    
+  </div>
+
+      <div data-target="game-toolbar.modal"></div>
+    </div>
+
+<script type="text/javascript">
+        window.addEventListener('resize', resizePage);
+        function resizePage() {
+            var g = document.getElementById("game");
+            // ASPECT: 3/2
+            var s = 96/170;
+            g.height = document.getElementById("game-col").clientWidth * s;
+            g.width = document.getElementById("game-col").clientWidth;
+
+            } resizePage();
+        </script>
+<div class="col-xs-12" align="center">
+<h6>Maneuver your car along twists and turns.<br>How many points can you earn?</h6>
+ </div>
+</div>
+<div class="centerImageTextHP">More Games to Play</div>
+<div class="col-5-games">
+<a href="https://www.mathplayground.com/pg_drift_to_right.html"><img class="value-img" src="./index_files/drift-to-right-180x80.png"></a>
+</div>
+<div class="col-5-games">
+<a href="https://www.mathplayground.com/pg_rambling_racer.html"><img class="value-img" src="./index_files/rambling-racer-small.png"></a>
+</div>
+<div class="col-5-games">
+<a href="https://www.mathplayground.com/pg_epic_city_driver.html"><img class="value-img" src="./index_files/epiccitydriver_280.png"></a>
+</div>
+<div class="col-5-games">
+<a href="https://www.mathplayground.com/pg_car_rush.html"><img class="value-img" src="./index_files/carrush_180.png"></a>
+</div>
+<div class="col-5-games">
+<a href="https://www.mathplayground.com/pg_rise_higher.html"><img class="value-img" src="./index_files/risehigher_280.png"></a>
+</div>
+<div>
+<img src="./index_files/math-playground-links.png" class="centerImageLinks" alt="Math Playground">
+</div>
+<div class="linkrow">
+<div class="linkcolumn">
+<b>MATH PLAYGROUND</b><br>
+<a href="https://www.mathplayground.com/grade_1_games.html">1st Grade Games</a><br>
+<a href="https://www.mathplayground.com/grade_2_games.html">2nd Grade Games</a><br>
+<a href="https://www.mathplayground.com/grade_3_games.html">3rd Grade Games</a><br>
+<a href="https://www.mathplayground.com/grade_4_games.html">4th Grade Games</a><br>
+<a href="https://www.mathplayground.com/grade_5_games.html">5th Grade Games</a><br>
+<a href="https://www.mathplayground.com/grade_6_games.html">6th Grade Games</a><br>
+<a href="https://www.mathplayground.com/thinkingblocks.html">Thinking Blocks</a><br>
+<a href="https://www.mathplayground.com/mathvideos.html">Math Videos</a>
+</div>
+<div class="linkcolumn">
+<b>MATH GAMES</b><br>
+<a href="https://www.mathplayground.com/index_addition_subtraction.html">Addition Games</a><br>
+<a href="https://www.mathplayground.com/index_addition_subtraction.html">Subtraction Games</a><br>
+<a href="https://www.mathplayground.com/index_multiplication_division.html">Multiplication Games</a><br>
+<a href="https://www.mathplayground.com/index_multiplication_division.html">Division Games</a><br>
+<a href="https://www.mathplayground.com/index_fractions.html">Fraction Games</a><br>
+<a href="https://www.mathplayground.com/index_prealgebra.html">Ratio Games</a><br>
+<a href="https://www.mathplayground.com/index_prealgebra.html">Prealgebra Games</a><br>
+<a href="https://www.mathplayground.com/index_geometry.html">Geometry Games</a>
+</div>
+<div class="linkcolumn">
+<b>LEARNING GAMES</b><br>
+<a href="https://www.mathplayground.com/logic-games.html">Logic Games</a><br>
+<a href="https://www.mathplayground.com/index_classic.html">Classic Games</a><br>
+<a href="https://www.mathplayground.com/learning_arcade.html#spelling">Spelling Games</a><br>
+<a href="https://www.mathplayground.com/learning_arcade.html#grammar">Grammar Games</a><br>
+<a href="https://www.mathplayground.com/learning_arcade.html#typing">Typing Games</a><br>
+<a href="https://www.mathplayground.com/learning_arcade.html#geography">Geography Games</a><br>
+<a href="https://www.mathplayground.com/perplexing_puzzles.html">Math Puzzles</a><br>
+<a href="https://www.mathplayground.com/index_find.html">Spatial Reasoning</a><br>
+</div>
+<div class="linkcolumn">
+<b>FUN KIDS GAMES</b><br>
+<a href="https://www.mathplayground.com/fun-skill-games.html">Fun Games</a><br>
+<a href="https://www.mathplayground.com/fun-skill-games.html#adventure">Adventure Games</a><br>
+<a href="https://www.mathplayground.com/fun-skill-games.html#racing">Car Games</a><br>
+<a href="https://www.mathplayground.com/fun-skill-games.html#sports">Sports Games</a><br>
+<a href="https://www.mathplayground.com/fun-skill-games.html#endless">Endless Runner</a><br>
+<a href="https://www.mathplayground.com/fun-skill-games.html#timing">Perfect Timing</a><br>
+<a href="https://www.mathplayground.com/ASB_Index.html">Multiplayer Games</a><br>
+<a href="https://www.mathplayground.com/game_directory.html">All Games</a><br>
+<a href="https://www.puzzleplayground.com/" target="_blank">New! Puzzle Playground</a>
+</div>
+</div>
+<footer class="site-footer" role="footer" data-footer="1">
+<div class="site-footer__leaderboard" style="margin-top:30px; margin-bottom:30px;" data-leaderboard="b">
+
+<div data-pw-desk="leaderboard_btf" id="leaderboard_btf" class="pw-tag" style="max-height: 250px;" data-google-query-id="CPKFkZT4y_oCFUMUwQodPEoM-g"><div id="google_ads_iframe_/96780239,10850682/1015837/62236/1015837-62236-desktop_leaderboard/1015837-62236-desktop_leaderboard-CP/1015837-62236-desktop_leaderboard-CP-game-pages_1__container__" style="border: 0pt none;"><iframe id="google_ads_iframe_/96780239,10850682/1015837/62236/1015837-62236-desktop_leaderboard/1015837-62236-desktop_leaderboard-CP/1015837-62236-desktop_leaderboard-CP-game-pages_1" name="google_ads_iframe_/96780239,10850682/1015837/62236/1015837-62236-desktop_leaderboard/1015837-62236-desktop_leaderboard-CP/1015837-62236-desktop_leaderboard-CP-game-pages_1" title="3rd party ad content" width="970" height="250" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" role="region" aria-label="ad" tabindex="0" style="border: 0px; vertical-align: bottom;" data-load-complete="true" data-google-container-id="2" src="./index_files/saved_resource(1).html"></iframe></div><div class="pw_report_ad_container" style="line-height:normal;display:block;"><a id="report_ad_leaderboard_btf" href="https://www.mathplayground.com/pg_drift_boss.html#" class="playwire_report_ad_link" style="color: #4db2ec;font-size:10px !important;font-family:&quot;Open Sans&quot;,arial,sans-serif !important">Report Ad</a></div></div>
+
+<div data-pw-mobi="leaderboard_btf"></div>
+<div class="ad-caption" data-asdf="1">
+Advertisement
+</div>
+</div>
+<hr class="site-footer__separator">
+<div class="site-footer__links">
+<a href="https://www.kidsafeseal.com/certifiedproducts/mathplayground.html" class="align-left flex-grow">
+<img src="./index_files/mathplayground_medium_darktm.png" alt="Kid Safe Seal">
+</a>
+<a href="https://www.mathplayground.com/about.html" class="site-footer__link">About Us</a>
+<a href="https://www.mathplayground.com/privacy" class="site-footer__link site-footer__link--big">Privacy Policy</a>
+<a href="https://www.mathplayground.com/terms-of-service" class="site-footer__link">Terms of Service</a>
+<a href="https://www.mathplayground.com/payment-terms" class="site-footer__link site-footer__link--last">Payment Terms</a>
+<a href="https://www.mathplayground.com/support.html" class="btn btn--small btn--altprimary site-footer__help">Get Help</a>
+</div>
+<div class="site-footer__copyright">
+Copyright © 2022 Math Playground LLC • All Rights Reserved
+</div>
+</footer>
+</div>
+
+
+<script type="text/javascript" src="./index_files/jquery-2.0.3.min.js.download"> </script>
+<script type="text/javascript">
+    $( document ).ready(resizePage);
+</script>
+<script async="" src="./index_files/platform.js.download" defer="" type="text/javascript" gapi_processed="true"></script>
+
+
+<div id="adBanner" class="adLeaderboard adBanner leaderboard_ad" style="background-color: transparent; height: 10px; width: 10px; position: fixed; bottom: -100px; left: -100px;">&nbsp;</div><script type="text/javascript" src="./index_files/v2"></script><iframe src="./index_files/container.html" style="visibility: hidden; display: none;"></iframe><iframe name="oauth2relay358761251" id="oauth2relay358761251" src="./index_files/postmessageRelay.html" tabindex="-1" aria-hidden="true" style="width: 1px; height: 1px; position: absolute; top: -100px;"></iframe><div id="pw-oop-bottom_rail" class="pw-tag" data-google-query-id="CPOFkZT4y_oCFUMUwQodPEoM-g" style="display: none;"><div id="google_ads_iframe_/96780239,10850682/1015837/62236/1015837-62236-bottom_rail/1015837-62236-bottom_rail-CP/1015837-62236-bottom_rail-CP-game-pages_0__container__" style="border: 0pt none; width: 728px; height: 0px;"></div></div><div id="pw-oop-site_skin" class="pw-tag pw-oop-tag" data-google-query-id="CPSFkZT4y_oCFUMUwQodPEoM-g" data-pw-status="rendered" style="display: none;"><div id="google_ads_iframe_/96780239,10850682/1015837/62236/publisher:1015837-website:62236-site_skin_0__container__" style="border: 0pt none;"></div></div><iframe src="./index_files/aframe.html" width="0" height="0" style="display: none;"></iframe><iframe name="google_ads_top_frame" id="google_ads_top_frame" style="display: none; position: fixed; left: -999px; top: -999px; width: 0px; height: 0px;" src="./index_files/saved_resource(2).html"></iframe><div id="myModal" class="report_ad_modal"><div class="report_ad_modal-content"><span class="report_ad_close"><img src="./index_files/close-button.svg"></span><iframe src="./index_files/mail.html" width="320px" height="462px" scrolling="no"></iframe></div></div></body></html>
